@@ -1,0 +1,7 @@
+version=v21_github_release
+paragraphs=250
+tables=8
+embedded_media=8
+repository=https://github.com/mbc828/Computational-Biology
+trajectory_files=excluded_from_public_repository
+large_file_request=contact_corresponding_author

@@ -1,0 +1,6 @@
+dataset	evidence_class	label_en	external_source	external_gene_column	external_logFC_column	external_p_column	external_p_type	raw_external_rows	external_unique_unambiguous	n	rho	p_asymptotic_unadjusted	p_underflow
+GSE276597	human_adjacent	Human revision loosening vs primary arthroplasty	cross_dataset/GSE276597_DE_Revision_vs_Primary.csv	Gene name	log2FoldChange	padj	adjusted_p	26631	26631	11540	0.014017386505186497	0.13213904810615915	False
+GSE252481	mouse_uppercase_heuristic	Mouse PJI granulocytes vs craniotomy control	cross_dataset/mouse_logfc.csv	gene	logFC_mPJI		not_available	8470	8470	8470	0.3310678312192383	8.892672826243787e-216	False
+GSE295742	mouse_uppercase_heuristic	Mouse biofilm-stimulated vs unstimulated G-MDSC	cross_dataset/mouse_logfc.csv	gene	logFC_mBiofilm		not_available	8470	8470	8470	0.08519889356532623	4.0232467045484385e-15	False
+GSE30119	human_whole_blood	Human S. aureus infection vs healthy (whole blood)	cross_dataset/sepsis/sepsis_GSE30119_logfc.csv	gene	logFC	P	unadjusted_legacy_probe_min_p	19609	19609	11924	0.22571581171909444	1.36859927269691e-137	False
+GSE6269	human_PBMC	Human S. aureus-associated vs healthy (PBMC)	cross_dataset/sepsis/sepsis_GSE6269_logfc.csv	gene	logFC	P	unadjusted_legacy_probe_min_p	13101	13101	9212	0.2099861337297178	2.5595380396749427e-92	False

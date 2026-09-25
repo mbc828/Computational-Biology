@@ -1,0 +1,16 @@
+system	rep	status	accepted_marker	frames	delta_total_kcal_mol	csv_mean_kcal_mol	within_trajectory_sample_sd	reason	path
+v2_IKKb_Baicalein	1	VALID	True	51	-35.16	-35.15941176470588	7.592594395004834	全部验收通过	archived result; see SHA-256 record
+v2_IKKb_Baicalein	2	VALID	True	51	-28.79	-28.791176470588237	2.4163250170942017	全部验收通过	archived result; see SHA-256 record
+v2_IKKb_Baicalein	3	VALID	True	51	-34.51	-34.5143137254902	7.2053289320896265	全部验收通过	archived result; see SHA-256 record
+v2_IKKb_Wogonin	1	VALID	True	51	-33.28	-33.28509803921568	2.519704246572617	全部验收通过	archived result; see SHA-256 record
+v2_IKKb_Wogonin	2	VALID	True	51	-28.29	-28.28764705882353	3.623235895293208	全部验收通过	archived result; see SHA-256 record
+v2_IKKb_Wogonin	3	VALID	True	51	-31.96	-31.962156862745097	2.160723317526324	全部验收通过	archived result; see SHA-256 record
+v2_IKKb_Berberine	1	VALID	True	51	-31.43	-31.426470588235293	2.531795270972289	全部验收通过	archived result; see SHA-256 record
+v2_IKKb_Berberine	2	VALID	True	51	-32.49	-32.49176470588235	3.511973636508311	全部验收通过	archived result; see SHA-256 record
+v2_IKKb_Berberine	3	VALID	True	51	-27.79	-27.789019607843137	3.2201709612391456	全部验收通过	archived result; see SHA-256 record
+v2_NLRP3_Baicalein	1	VALID	True	51	-30.01	-30.00941176470588	2.636196056263423	全部验收通过	archived result; see SHA-256 record
+v2_NLRP3_Baicalein	2	VALID	True	51	-25.07	-25.07470588235294	2.1901975736824992	全部验收通过	archived result; see SHA-256 record
+v2_NLRP3_Baicalein	3	VALID	True	51	-27.75	-27.74686274509804	1.6270691321466073	全部验收通过	archived result; see SHA-256 record
+v2_NLRP3_Berberine	1	VALID	True	51	-25.65	-25.651960784313726	2.3695636894650822	全部验收通过	archived result; see SHA-256 record
+v2_NLRP3_Berberine	2	VALID	True	51	-26.34	-26.34098039215686	2.5963691994028593	全部验收通过	archived result; see SHA-256 record
+v2_NLRP3_Berberine	3	VALID	True	51	-30.93	-30.924705882352942	2.862689890953036	全部验收通过	archived result; see SHA-256 record

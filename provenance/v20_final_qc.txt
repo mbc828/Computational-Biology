@@ -1,0 +1,12 @@
+paragraphs=250
+tables=8
+embedded_media=8
+internal_token_hits=0
+table7_rows=5
+table7_cantSplit_rows=5
+table7_header_repeat=True
+table7_caption_page_break_before=true
+pdf_header=b'%PDF-'
+pdf_pages=42_verified_separately
+blank_pages=not_checked_in_docx_qc
+table7_content_pages=25_verified_separately

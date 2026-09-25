@@ -1,0 +1,348 @@
+{
+  "status": "PASS",
+  "figure_count": 8,
+  "checks": "Agg visible-text canvas bounds and pairwise overlaps (>2 pixels at 150 dpi); minimum fonts; CJK exclusion; PNG pixel size/DPI; PDF MediaBox and FontFile2; SVG outlined paths; output hashes.",
+  "limitations": [
+    "Automated text geometry is checked, but cannot certify all text/data collisions or publication aesthetics. The image-read tool returned empty content; human visual approval remains pending.",
+    "SVG text is outlined for portable rendering; PDF text uses embedded TrueType fonts.",
+    "Existing source statistical estimates are reused; no independent raw-data model validation is performed."
+  ],
+  "figures": {
+    "F1_evidence_workflow": {
+      "status": "PASS",
+      "errors": [],
+      "png_pixels": [
+        4251,
+        3661
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "review_pixels": [
+        1062,
+        915
+      ],
+      "review_dpi": [
+        150.01239999999999,
+        150.01239999999999
+      ],
+      "width_mm": 180,
+      "height_mm": 155.0,
+      "pdf_width_mm": 179.99999999998556,
+      "minimum_visible_font_pt": 8.0,
+      "visible_text_count": 15,
+      "text_outside_canvas": [],
+      "text_overlap_candidates": [],
+      "pdf_truetype_embedded": true,
+      "svg_text_outlined": true,
+      "formats_exist": true,
+      "files": {
+        "png": "F1_evidence_workflow.png",
+        "pdf": "F1_evidence_workflow.pdf",
+        "svg": "F1_evidence_workflow.svg",
+        "review": "F1_evidence_workflow_review.png"
+      },
+      "output_sha256": {
+        "png": "b775bbd16b58b7e8f4b40b90426dd613d99a3e27d5b541deae6a9c21e4514700",
+        "pdf": "64775440168178fddb1948563078802712575aba5f8f99f83117b631b5785951",
+        "svg": "fb84d9491f89c1adc4abd8671e77aed28cec3a5a0b96f32776572c03ec5100d0",
+        "review": "c610d79121920ea6c0217987cc5141da2fc65644855fee88332719d643e60a5a"
+      }
+    },
+    "F2_corrected_PCA_volcano": {
+      "status": "PASS",
+      "errors": [],
+      "png_pixels": [
+        4251,
+        2834
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "review_pixels": [
+        1062,
+        708
+      ],
+      "review_dpi": [
+        150.01239999999999,
+        150.01239999999999
+      ],
+      "width_mm": 180,
+      "height_mm": 120.0,
+      "pdf_width_mm": 179.99999999998556,
+      "minimum_visible_font_pt": 8.0,
+      "visible_text_count": 36,
+      "text_outside_canvas": [],
+      "text_overlap_candidates": [],
+      "pdf_truetype_embedded": true,
+      "svg_text_outlined": true,
+      "formats_exist": true,
+      "files": {
+        "png": "F2_corrected_PCA_volcano.png",
+        "pdf": "F2_corrected_PCA_volcano.pdf",
+        "svg": "F2_corrected_PCA_volcano.svg",
+        "review": "F2_corrected_PCA_volcano_review.png"
+      },
+      "output_sha256": {
+        "png": "20bc536cd434f15b111d720c2e1594aa944cda75c940e9e9911a4ca49ce74ce2",
+        "pdf": "cccb2e0956b385ab2837f92a58632c000a33a847a53de6270dc7f02d4674c027",
+        "svg": "10ebc8b1103f688eb1c98f33f251f19db2c61a8fb91a441578bce3f3b299063f",
+        "review": "711000beea12e43dfddaccaebb62c14fa7a5275a885d5753d4514cfc3790802b"
+      }
+    },
+    "F3_GO_BP": {
+      "status": "PASS",
+      "errors": [],
+      "png_pixels": [
+        4251,
+        5078
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "review_pixels": [
+        1062,
+        1269
+      ],
+      "review_dpi": [
+        150.01239999999999,
+        150.01239999999999
+      ],
+      "width_mm": 180,
+      "height_mm": 215.0,
+      "pdf_width_mm": 179.99999999998556,
+      "minimum_visible_font_pt": 8.0,
+      "visible_text_count": 47,
+      "text_outside_canvas": [],
+      "text_overlap_candidates": [],
+      "pdf_truetype_embedded": true,
+      "svg_text_outlined": true,
+      "formats_exist": true,
+      "files": {
+        "png": "F3_GO_BP.png",
+        "pdf": "F3_GO_BP.pdf",
+        "svg": "F3_GO_BP.svg",
+        "review": "F3_GO_BP_review.png"
+      },
+      "output_sha256": {
+        "png": "48b02099690fa31310f3a8c01e516bfb06747d3b3c4405052c30150fae689a99",
+        "pdf": "63450f4b278b62c1c866fbbf9c02702d14ae6431a68ecbe35a2afc799de19b4a",
+        "svg": "9a4e0e27bd5b974e5537ea116f5b8ab6739709d46787564809b2b2479d93829a",
+        "review": "43056561cc402fccd735ea42c24e8a0ea5f9a4a23f2827d43d4f95cdcbe2426d"
+      }
+    },
+    "F4_prespecified_modules": {
+      "status": "PASS",
+      "errors": [],
+      "png_pixels": [
+        4251,
+        4488
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "review_pixels": [
+        1062,
+        1122
+      ],
+      "review_dpi": [
+        150.01239999999999,
+        150.01239999999999
+      ],
+      "width_mm": 180,
+      "height_mm": 190.0,
+      "pdf_width_mm": 179.99999999998556,
+      "minimum_visible_font_pt": 8.0,
+      "visible_text_count": 92,
+      "text_outside_canvas": [],
+      "text_overlap_candidates": [],
+      "pdf_truetype_embedded": true,
+      "svg_text_outlined": true,
+      "formats_exist": true,
+      "files": {
+        "png": "F4_prespecified_modules.png",
+        "pdf": "F4_prespecified_modules.pdf",
+        "svg": "F4_prespecified_modules.svg",
+        "review": "F4_prespecified_modules_review.png"
+      },
+      "output_sha256": {
+        "png": "0b04a30baf71924fbd80d9f6b018a4b8971610cf90531abf1d9212d4ebf6132e",
+        "pdf": "80420c7bf8217f54cc35b4131a3d1871855999e6793a5ff316d87d9fb4899da7",
+        "svg": "6c5aeeeb477f90d08bc6c746ad7d6586a11870e56a89ee3c9ae6f2ecb4538454",
+        "review": "d58967a844a051ecf646c24ecf91b4e63aac79c805b126a9423784bab491c6f8"
+      }
+    },
+    "F5_external_cohorts": {
+      "status": "PASS",
+      "errors": [],
+      "png_pixels": [
+        4251,
+        5314
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "review_pixels": [
+        1062,
+        1328
+      ],
+      "review_dpi": [
+        150.01239999999999,
+        150.01239999999999
+      ],
+      "width_mm": 180,
+      "height_mm": 225.0,
+      "pdf_width_mm": 179.99999999998556,
+      "minimum_visible_font_pt": 8.0,
+      "visible_text_count": 145,
+      "text_outside_canvas": [],
+      "text_overlap_candidates": [],
+      "pdf_truetype_embedded": true,
+      "svg_text_outlined": true,
+      "formats_exist": true,
+      "files": {
+        "png": "F5_external_cohorts.png",
+        "pdf": "F5_external_cohorts.pdf",
+        "svg": "F5_external_cohorts.svg",
+        "review": "F5_external_cohorts_review.png"
+      },
+      "output_sha256": {
+        "png": "00a8fac246dcd96d6b3c5eaeb7ca15fbe23445ef6e08100adabe18324636a67c",
+        "pdf": "f858df325fa3db0e8f268fd296a89cb023d81ec84af5fcb6238bcdfe11c12675",
+        "svg": "46ddd51eb5ac57c4f4c7ccef9430a3ddb1069149296f7480354ffd97f8110c4f",
+        "review": "3846e5bbf6d49d8ca63d50dd59c55eff032fb24b32f2cdd3d2fdb3f490eac909"
+      }
+    },
+    "F6_MMGBSA": {
+      "status": "PASS",
+      "errors": [],
+      "png_pixels": [
+        4251,
+        3188
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "review_pixels": [
+        1062,
+        797
+      ],
+      "review_dpi": [
+        150.01239999999999,
+        150.01239999999999
+      ],
+      "width_mm": 180,
+      "height_mm": 135.0,
+      "pdf_width_mm": 179.99999999998556,
+      "minimum_visible_font_pt": 8.0,
+      "visible_text_count": 22,
+      "text_outside_canvas": [],
+      "text_overlap_candidates": [],
+      "pdf_truetype_embedded": true,
+      "svg_text_outlined": true,
+      "formats_exist": true,
+      "files": {
+        "png": "F6_MMGBSA.png",
+        "pdf": "F6_MMGBSA.pdf",
+        "svg": "F6_MMGBSA.svg",
+        "review": "F6_MMGBSA_review.png"
+      },
+      "output_sha256": {
+        "png": "1705410024eda7778bf4ac4f2e030888b673090a750a3be31d7aa17e40f4268b",
+        "pdf": "653381be2e9843cbe32b2d41982c893b9cfe2fbbdffc2e72c2bf02540abdaec1",
+        "svg": "6017bcba0eaa6fd1a09836ace20d011850e49435a8bbff0f2e8698bcdf51bef5",
+        "review": "f01c2b508c366865979b841c2011de16428447514b054d34ee95a13ed4840494"
+      }
+    },
+    "F7_followup_drift_residues": {
+      "status": "PASS",
+      "errors": [],
+      "png_pixels": [
+        4251,
+        5314
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "review_pixels": [
+        1062,
+        1328
+      ],
+      "review_dpi": [
+        150.01239999999999,
+        150.01239999999999
+      ],
+      "width_mm": 180,
+      "height_mm": 225.0,
+      "pdf_width_mm": 179.99999999998556,
+      "minimum_visible_font_pt": 8.0,
+      "visible_text_count": 74,
+      "text_outside_canvas": [],
+      "text_overlap_candidates": [],
+      "pdf_truetype_embedded": true,
+      "svg_text_outlined": true,
+      "formats_exist": true,
+      "files": {
+        "png": "F7_followup_drift_residues.png",
+        "pdf": "F7_followup_drift_residues.pdf",
+        "svg": "F7_followup_drift_residues.svg",
+        "review": "F7_followup_drift_residues_review.png"
+      },
+      "output_sha256": {
+        "png": "a6c0783aad4f9c7a2ae57145addfc0f09510d5439089772bdddfd0cd26d6dc35",
+        "pdf": "681749e8eda82461a2dc380bc954550d6a8156f3a7bd69c51d0c3a329bc78083",
+        "svg": "5d27edc673dfa8fc8a3f16558c073e79a7e06d19628b963fb02dcaddb71e89dd",
+        "review": "e1ad703a4b4d7e03efcf0cf4bc605a9990b42ad1628769ab9f138d544f1c8b77"
+      }
+    },
+    "F8_trajectory_coverage_RMSD": {
+      "status": "PASS",
+      "errors": [],
+      "png_pixels": [
+        4251,
+        5196
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "review_pixels": [
+        1062,
+        1299
+      ],
+      "review_dpi": [
+        150.01239999999999,
+        150.01239999999999
+      ],
+      "width_mm": 180,
+      "height_mm": 220.0,
+      "pdf_width_mm": 179.99999999998556,
+      "minimum_visible_font_pt": 8.0,
+      "visible_text_count": 43,
+      "text_outside_canvas": [],
+      "text_overlap_candidates": [],
+      "pdf_truetype_embedded": true,
+      "svg_text_outlined": true,
+      "formats_exist": true,
+      "files": {
+        "png": "F8_trajectory_coverage_RMSD.png",
+        "pdf": "F8_trajectory_coverage_RMSD.pdf",
+        "svg": "F8_trajectory_coverage_RMSD.svg",
+        "review": "F8_trajectory_coverage_RMSD_review.png"
+      },
+      "output_sha256": {
+        "png": "1df0cc39fb385a38dd17128195f1bfcc7a5a993f0591f7462da94ca0852d2a73",
+        "pdf": "f3d10e1ea8ccf3cd4ecd988b2bb0ac4b6decb5601cbbcb57590a7d29f4da7283",
+        "svg": "537dd6fb2cea076eb18d3a0fc7455305f9a2db0d8b48f15d1094f5d13a3e2f6f",
+        "review": "c9b7e46550209c2d9af9fb97e1e7f140fd9d284a680cffa5f261bf25a61e0eef"
+      }
+    }
+  }
+}

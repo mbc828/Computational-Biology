@@ -1,0 +1,201 @@
+{
+  "generated_utc": "2026-09-22T15:28:14.992502+00:00",
+  "dependencies": {
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "Pillow": "12.3.0"
+  },
+  "source_access": "Source records are retained in the project archive and linked to the supplementary data tables by SHA-256 hashes.",
+  "no_source_modified": true,
+  "no_new_MD_or_edgeR": true,
+  "sources": {
+    "corrected_transcriptome_results": {
+      "sha256": "90d8ac5d76667f5ac5afc5ba3284942c12b6c73c960064260347aefcc4226509",
+      "bytes": 1113,
+      "columns": [
+        "GOID",
+        "Description",
+        "overlap",
+        "set_size",
+        "query_size",
+        "universe_size",
+        "PValue",
+        "FDR",
+        "overlap_entrez"
+      ],
+      "rows": 7
+    },
+    "prespecified_downstream_results": {
+      "sha256": "2fee7adb3ea41548f34948cd38dfc2cc65cc7ce0192b5b666a9dc888fb1d0cb8",
+      "bytes": 11840,
+      "columns": [
+        "dataset",
+        "evidence_class",
+        "gene",
+        "human_logFC",
+        "human_FDR",
+        "human_signif",
+        "external_logFC",
+        "external_p",
+        "external_p_type",
+        "external_original_gene",
+        "status",
+        "direction_match"
+      ],
+      "rows": 80
+    },
+    "structural_trajectory_summary": {
+      "sha256": "914e7f12921a80b7767ce9aaa837cc5f4d6c674a5464ecf410466b903fa93e98",
+      "bytes": 65489,
+      "columns": [
+        "system",
+        "target",
+        "ligand",
+        "metric",
+        "definition_scope",
+        "fit",
+        "unit",
+        "mean",
+        "sd_between_replicates",
+        "n_replicates",
+        "n_expected",
+        "n_selected",
+        "missing_reps",
+        "not_selected_reps",
+        "completeness",
+        "inference",
+        "replicate_availability",
+        "replicate_values"
+      ],
+      "rows": 218
+    },
+    "time_block_and_residue_diagnostics": {
+      "sha256": "fc94e11d6f2be10f14cf6e0d33bcc10faef18b8ca6479216dbd1b3adf23ee222",
+      "bytes": 253,
+      "columns": [
+        "system",
+        "union_receptor",
+        "intersection_3rep",
+        "partial_coverage",
+        "not_evaluable",
+        "screened_candidates"
+      ],
+      "rows": 5
+    },
+    "pbc_safe_mmgbsa_results": {
+      "sha256": "a30cc1677c12d7ec782ec19b1cc3312f6c853a3079f9585963a2cce8d25e3020",
+      "bytes": 39495,
+      "columns": [
+        "system",
+        "rep",
+        "block",
+        "first_frame",
+        "last_frame",
+        "first_ns",
+        "last_ns",
+        "n",
+        "term",
+        "mean_kcal_mol",
+        "sample_sd"
+      ],
+      "rows": 540
+    }
+  },
+  "figures": {
+    "F1_evidence_workflow": {
+      "sources": [
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record.",
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record.",
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record.",
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record."
+      ],
+      "decisions": [
+        "Schematic evidence roles, not a validated causal mechanism.",
+        "All experimental validation remains pending."
+      ]
+    },
+    "F2_corrected_PCA_volcano": {
+      "sources": [
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record.",
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record.",
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record."
+      ],
+      "decisions": [
+        "Reuse authoritative PCA scores and differential results; no model refitting.",
+        "Explicit sample-label correction circles for 1364 and 995."
+      ]
+    },
+    "F3_GO_BP": {
+      "sources": [
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record.",
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record."
+      ],
+      "decisions": [
+        "UP top 10 by FDR; all 7 significant DOWN terms.",
+        "Long English labels wrapped without reducing fonts below 8 pt."
+      ]
+    },
+    "F4_prespecified_modules": {
+      "sources": [
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record."
+      ],
+      "decisions": [
+        "All 29 module-gene entries shown; shared genes retained but not treated as independent.",
+        "IKBKB explicitly nonsignificant; FDR-only and strict DEG categories separated."
+      ]
+    },
+    "F5_external_cohorts": {
+      "sources": [
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record.",
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record."
+      ],
+      "decisions": [
+        "Only prespecified downstream results used.",
+        "Five Spearman estimates preserved; no invented confidence intervals.",
+        "Mouse uppercased symbols explicitly heuristic; effect scales not pooled.",
+        "NA for missing S100A8 in GSE276597.",
+        "F5 warning added: effect magnitudes are not directly comparable across columns; heatmap uses np.sign(matrix) with fixed direction-only colors and cross-column intensity must not be interpreted."
+      ]
+    },
+    "F6_MMGBSA": {
+      "sources": [
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record.",
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record.",
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record."
+      ],
+      "decisions": [
+        "15 current rows plus only 3 historical Emodin rows.",
+        "9 overlapping historical rows excluded; n remains 3, never 6.",
+        "Use saved delta_total_kcal_mol, SD across three trajectory estimates (ddof=1)."
+      ]
+    },
+    "F7_followup_drift_residues": {
+      "sources": [
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record.",
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record.",
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record.",
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record.",
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record."
+      ],
+      "decisions": [
+        "23 system-residue entries, not unique positions.",
+        "2/15 absolute block3-minus-block1 drifts >=5 kcal/mol.",
+        "Use follow-up structural diagnostics only; no recomputation of energies."
+      ]
+    },
+    "F8_trajectory_coverage_RMSD": {
+      "sources": [
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record.",
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record.",
+        "Public supplementary result or archived source; see the corresponding table and SHA-256 record."
+      ],
+      "decisions": [
+        "All 41 unique trajectories and 15 systems retained.",
+        "Only repaired 12 TLR4-MD2 trajectories; old TLR4 excluded.",
+        "All-atom legacy ligand RMSD distinct from repaired heavy-atom RMSD.",
+        "Trajectory summary means and ddof=1 SD crosschecked against authoritative system table.",
+        "8 repaired TLR4 trajectories passed cutoff-boundary review despite automatic supplemental flags."
+      ]
+    }
+  }
+}

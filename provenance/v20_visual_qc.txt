@@ -1,0 +1,9 @@
+source=v18_final_tweaks
+paragraphs=250
+tables=8
+embedded_media=8
+table7_rows=5
+table7_cantSplit_rows=5
+table7_header_repeat=True
+table7_page_break_before=true
+version=v20_visual_tweaks

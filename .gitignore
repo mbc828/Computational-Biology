@@ -1,0 +1,19 @@
+# Large/private computational objects
+*.xtc
+*.trr
+*.dcd
+*.nc
+*.h5
+*.hdf5
+*.fastq
+*.fq
+*.bam
+*.bai
+*.tpr
+*.cpt
+*.edr
+*.gro
+*.pdbqt
+*.part
+outputs/
+.workbuddy/
