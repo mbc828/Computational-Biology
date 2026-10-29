@@ -1,0 +1,81 @@
+{
+  "all_parameterized_trajectory_directories": 109,
+  "included_trajectories": 85,
+  "included_systems": 29,
+  "included_by_group": {
+    "main_15_systems": 45,
+    "IKK16_single_reference": 1,
+    "explicit_mutant_8_systems": 24,
+    "supplementary_5_systems": 15
+  },
+  "excluded_by_status": {
+    "excluded_duplicate_alternate": 7,
+    "excluded_superseded": 1,
+    "excluded_duplicate_or_legacy": 14,
+    "excluded_smoke": 2
+  },
+  "mdout_missing_but_log_recovered": 6,
+  "included_unfinished_logs": [],
+  "included_missing_topology": [],
+  "versions": {
+    "2026.3": 16,
+    "2026.2": 46,
+    "2025.4-conda_forge": 23
+  },
+  "forcefields": {
+    "amber99sb-ildn": 85
+  },
+  "water_models": {
+    "tip3p": 85
+  },
+  "nominal_lengths_ns": {
+    "100.000000": 85
+  },
+  "save_intervals_ps": {
+    "50": 21,
+    "10": 64
+  },
+  "thermostats": {
+    "V-rescale": 85
+  },
+  "barostats": {
+    "C-rescale": 85
+  },
+  "coordinate_save_ps_by_group": {
+    "IKK16_single_reference": {
+      "10": 1
+    },
+    "explicit_mutant_8_systems": {
+      "10": 24
+    },
+    "main_15_systems": {
+      "50": 6,
+      "10": 39
+    },
+    "supplementary_5_systems": {
+      "50": 15
+    }
+  },
+  "nvt_records": {
+    "0.1": 77,
+    "missing": 8
+  },
+  "npt_records": {
+    "1": 77,
+    "missing": 8
+  },
+  "npt_barostats": {
+    "C-rescale": 56,
+    "Berendsen": 21,
+    "missing": 8
+  },
+  "production_gen_vel": {
+    "no": 79,
+    "not_recorded_in_md.log": 6
+  },
+  "constraints": {
+    "h-bonds": 79,
+    "not_recorded_in_md.log": 6
+  },
+  "unique_parameter_signatures": 6
+}
