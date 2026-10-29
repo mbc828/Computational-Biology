@@ -33,8 +33,9 @@ draw = ImageDraw.Draw(canvas)
 orig = Image.open(SRC).convert("RGB")
 assert orig.size == (W, H), orig.size
 
-# Preserve the original quantitative panels B and C without resampling.
+# Preserve the quantitative panels B and C without resampling; remove only the matrix-dimension label.
 b = orig.crop((SPLIT, 0, W, 1100))
+ImageDraw.Draw(b).rectangle((2940-SPLIT, 58, 3180-SPLIT, 166), fill=rgb(C["white"]))
 c = orig.crop((SPLIT, 1080, W, H))
 b.save(MEDIA / "panel_B_original.png")
 c.save(MEDIA / "panel_C_original.png")
@@ -133,7 +134,7 @@ text("candidate_focus", [250, 1038, 1580, 44], "Baicalein advanced to cell-based
 shape("structure_band", [190, 1170, 1700, 248], C["plum_light"], C["plum"])
 shape("structure_rule", [190, 1170, 14, 248], C["plum"])
 text("structure_title", [250, 1190, 1580, 52], "Structure-based evaluation", 42, C["plum"], True)
-text("structure_body1", [250, 1254, 1580, 52], "Vina (6 × 5)  →  triplicate 100 ns MD  →  MM/GBSA", 36, C["ink"])
+text("structure_body1", [250, 1254, 1580, 52], "Vina  →  triplicate 100 ns MD  →  MM/GBSA", 36, C["ink"])
 text("structure_body2", [250, 1315, 1580, 70], "Contact fingerprints · free-energy landscapes\nRepresentative poses · computational mutants", 32, C["muted"])
 
 # Two experimental arms.

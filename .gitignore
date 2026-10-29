@@ -4,6 +4,8 @@
 05_documentation/
 06_source_material/
 07_audit/
+!03_code/public/**/07_audit/
+!03_code/public/**/07_audit/*.py
 
 # Large/raw computational objects
 *.xtc
