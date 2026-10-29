@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-10-29T16:46:12.306341+00:00",
+  "generated_utc": "2026-10-29T17:23:36.379795+00:00",
   "baseline": "SHXD-PJI v92",
   "algorithm": "SHA-256",
-  "file_count": 193,
+  "file_count": 195,
   "files": [
     {
       "path": ".gitignore",
@@ -243,6 +243,11 @@
       "path": "03_code/public/outputs/manuscript_v21_github_release/07_audit/build_wb_audit_v92.py",
       "bytes": 20163,
       "sha256": "f617db8ec25e0dc4a713db3c49c05410f293b20ea1c0527ab7e0de3de4823876"
+    },
+    {
+      "path": "03_code/public/outputs/manuscript_v21_github_release/07_audit/build_wb_source_data.py",
+      "bytes": 20689,
+      "sha256": "712fe23ddafde4cddbf527abe4b6dcb8dd73420c346fec94e838859fae612532"
     },
     {
       "path": "03_code/public/outputs/manuscript_v21_github_release/07_audit/build_wb_stats_v92.py",
@@ -933,6 +938,11 @@
       "path": "04_data/provenance/v27_update_manifest.json",
       "bytes": 833,
       "sha256": "c074a3bbc22b1cfb415d2961c54c732f183dfec7c90f6e9ad24ac7e87da47900"
+    },
+    {
+      "path": "04_data/wb_audit/WB_Source_Data文件对应清单_v1_20261030.xlsx",
+      "bytes": 21638,
+      "sha256": "e6102952368e2405d86dda3f40c3d59c62fb084cda129909c72df3a7e81786b2"
     },
     {
       "path": "04_data/wb_audit/WB原始全膜与灰度核对_v1_20261030.xlsx",
