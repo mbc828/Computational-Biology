@@ -1,0 +1,16 @@
+﻿assay,group,file,result
+plate,Control,2_260805_230216_White.jpg,527
+plate,Control,2_260805_233820_White.jpg,622
+plate,Control,2_260805_234034_White.jpg,532
+plate,Baicalein,1_260805_234744_White.jpg,34
+plate,Baicalein,1_260805_235825_White.jpg,32
+plate,Baicalein,2_260805_235952_White.jpg,29
+plate,SHXD formula 125,中药整方2.jpg,3
+plate,SHXD formula 125,中药整方3.jpg,17
+live_dead_red,Control,control 1_ch01.tif,"0.00% area, 0 spots"
+live_dead_red,Control,control 2_ch01.tif,"0.00% area, 0 spots"
+live_dead_red,Baicalein,中药1_ch01.tif,"0.00% area, 0 spots"
+live_dead_red,Baicalein,中药2_ch01.tif,"0.00% area, 0 spots"
+live_dead_red,SHXD formula 125,整方1.jpg,"2.79% area, 514 spots"
+live_dead_red,SHXD formula 125,整方2.jpg,"2.43% area, 470 spots"
+live_dead_red,SHXD formula 125,整方3.jpg,"3.95% area, 671 spots"

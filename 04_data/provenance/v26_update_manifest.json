@@ -1,0 +1,30 @@
+{
+  "version": "v26_new_mutation_scan_wb_expected_framework",
+  "base": "SHXD_PJI_中文全稿_v25_新增计算整合版_已修订.docx",
+  "docx_file": "SHXD_PJI_中文全稿_v26_新增突变扫描与WB预期框架.docx",
+  "changes": [
+    "embedded F6 replaced with independent C-panel layout-fixed RGB figure",
+    "added completed IKKb Oroxylin A and Apigenin MM/GBSA batch",
+    "added 30-entry IKKb alanine-scan summary and explicit evidence boundary",
+    "added pending mutation-MD placeholder",
+    "added WB expected-results and parameter framework explicitly marked not performed"
+  ],
+  "source_files": {
+    "ikkb_fill_progress": "<LOCAL_DRIVE>/shxdpji/mmgbsa_ikkb_fill_20261003/progress.json",
+    "alanine_scan_summary": "<LOCAL_DRIVE>/\shxdpji\\mmgbsa_ala_scan_20261004\\ALA_SCAN_SUMMARY.csv",
+    "copied_alanine_scan_summary": "<LOCAL_DRIVE>/\kimi\\kimi\\workspace\\SHXD-PJI项目\\outputs\\manuscript_v21_github_release\\tables_data\\ikkb_alanine_scan_20261004_summary.csv",
+    "f6_layout_script": "make_f67_layout_fixed_20261006.py"
+  },
+  "figures": {
+    "F6_MMGBSA_v26_C_panel_fixed_RGB.png": {
+      "sha256": "3813765c53f018216986069df63ce25f2ff738df2fbbce91b65c568a903de6d2",
+      "bytes": 378947,
+      "size_px": [
+        4251,
+        4133
+      ],
+      "mode": "RGB"
+    }
+  },
+  "docx_sha256": "227101fbd753de65ad02faba0b58d6b2f6560e2ac6958878e0e014c83f2188a5"
+}

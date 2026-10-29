@@ -1,28 +1,31 @@
-# Computational Biology — PJI Evidence-Bounded Study
+# SHXD–PJI：网络药理学、临床转录组与多尺度模拟
 
-This repository contains the public, lightweight materials accompanying the evidence-bounded computational study of corrected PJI transcriptomic signatures, external contextual datasets, exploratory structural calculations, and the planned validation roadmap.
+本目录是 SHXD–PJI 项目的集中工作包，并对应公开仓库 `mbc828/Computational-Biology` 的当前发布内容。当前文稿基线为 **v90（图 5 字体统一版）**。
 
-## Contents
+## 本地目录
 
-- `manuscript/`: text-readable manuscript export corresponding to the local DOCX/PDF delivery version.
-- `figures/`: eight English-labeled SVG publication figures and captions.
-- `tables_data/`: figure source tables and tabular results used for the manuscript figures.
-- `provenance/`: public source mapping, figure QC, manuscript QC, and delivery records.
+| 目录 | 内容 | GitHub |
+|---|---|---|
+| `01_manuscript/` | v90 当前稿与最近 4 个历史版本（v86–v89） | 不上传 DOCX |
+| `02_figures/` | 从 v90 无损提取的 7 幅正文图、17 幅附录／补充图及图件清单 | 上传 |
+| `03_code/full_snapshot/` | 项目内代码的本地集中快照，保留来源相对路径并去重 | 不上传 |
+| `03_code/public/` | 经敏感信息检查和路径占位处理的公开代码快照 | 上传 |
+| `04_data/` | 处理后数据表、湿实验统计汇总、机器学习／毒理结果、MD 参数与溯源记录 | 上传公开部分 |
+| `05_documentation/` | 待补细节清单与实验记录模板 | 不上传 |
+| `06_source_material/` | 本地参考工作簿与来源材料 | 不上传 |
+| `07_audit/` | 整理前后清单、删除记录、校验报告 | 不上传 |
+| `manuscript/` | v90 可检索纯文本稿，链接至公开图件 | 上传 |
 
-## Intentionally excluded
+## 公开内容边界
 
-Large molecular-dynamics trajectory files, raw sequencing archives, private project-archive directories, local absolute paths, credentials, and other non-public intermediate files are not uploaded. The trajectory files are too large for this repository. Researchers who need the original or complete trajectories should contact the corresponding author.
+公开材料包括最终图件、处理后表格、图表与统计代码快照、结构分析代码、可用 MD 参数文件、机器学习结果摘要和当前文本稿。未公开患者可识别信息、历史废稿、原始测序归档、完整 MD 轨迹、原始全膜和本地临时工作目录。
 
-The local delivery package retains the DOCX/PDF and raster review images. This repository submission uses a text-readable manuscript export and SVG figures so that the public release remains lightweight and inspectable.
+公开代码是来源快照，不应在含本地路径占位符时直接运行。请先阅读 `03_code/public/README.md`，配置输入路径并核对依赖。完整复现还需要公共原始数据及文中说明的大体量轨迹。
 
-## Evidence boundary
+## 数据与代码可得性
 
-Structural calculations and model-dependent MM/GBSA estimates are exploratory candidate-prioritization evidence. They do not establish direct binding, experimental affinity, kinase inhibition, treatment efficacy, or causal mechanism. Target engagement, functional perturbation/rescue, exposure anchoring, and PJI animal validation remain experimental follow-up work.
+公共数据以 GEO、PDB、ProteomeXchange 编号和参考文献标识。完整 MD 轨迹因体积较大，按论文声明通过通讯作者提供。投稿前应以具体 commit 或 release 固定公开版本。
 
-## Data availability
+## 当前待补事项
 
-Public records are identified by GEO/PDB accession and references. No patient-identifiable information is distributed here. The repository does not redistribute unpublished raw sequencing data.
-
-## Contact
-
-For large trajectories or additional non-public computational intermediates, contact the corresponding author.
+详见本地 `05_documentation/文件汇总与待补细节_20261029.md`。重点是试剂／抗体与原始仪器记录、MRSA 伦理与使用许可、实验批次归属、网络药理学逐边来源表，以及逐体系 MD 参数映射。当前不因文件整理而新增湿实验。

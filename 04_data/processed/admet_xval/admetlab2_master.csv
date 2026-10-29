@@ -1,0 +1,801 @@
+﻿Compound,Category,Endpoint,Value,FlagColor
+Aloe-emodin,,QED,0.620,danger
+Aloe-emodin,,SAscore,2.310,success
+Aloe-emodin,,MCE-18,36.000,danger
+Aloe-emodin,,Lipinski Rule,Accepted,success
+Aloe-emodin,,Pfizer Rule,Accepted,success
+Aloe-emodin,,GSK Rule,Accepted,success
+Aloe-emodin,,Golden Triangle,Accepted,success
+Aloe-emodin,,Caco-2 Permeability,-5.002,success
+Aloe-emodin,,MDCK Permeability,8.4e-06,success
+Aloe-emodin,,Pgp-inhibitor,---,success
+Aloe-emodin,,Pgp-substrate,---,success
+Aloe-emodin,,HIA,---,success
+Aloe-emodin,,PPB,97.408%,danger
+Aloe-emodin,,VD,0.576,success
+Aloe-emodin,,Fu,2.833%,danger
+Aloe-emodin,,BBB Penetration,--,success
+Aloe-emodin,,CYP1A2 inhibitor,+++,
+Aloe-emodin,,CYP1A2 substrate,---,
+Aloe-emodin,,CYP2C19 inhibitor,---,
+Aloe-emodin,,CYP2C19 substrate,---,
+Aloe-emodin,,CYP2C9 inhibitor,+,
+Aloe-emodin,,CYP2C9 substrate,--,
+Aloe-emodin,,CYP2D6 inhibitor,-,
+Aloe-emodin,,CYP2D6 substrate,--,
+Aloe-emodin,,CYP3A4 inhibitor,+,
+Aloe-emodin,,CYP3A4 substrate,--,
+Aloe-emodin,,CL,6.290,success
+Aloe-emodin,,hERG Blockers,---,success
+Aloe-emodin,,H-HT,---,success
+Aloe-emodin,,DILI,+++,danger
+Aloe-emodin,,AMES Toxicity,++,danger
+Aloe-emodin,,Rat Oral Acute Toxicity,---,success
+Aloe-emodin,,FDAMDD,---,success
+Aloe-emodin,,Skin Sensitization,-,warning
+Aloe-emodin,,Carcinogencity,++,danger
+Aloe-emodin,,Eye Corrosion,---,success
+Aloe-emodin,,Eye Irritation,+++,danger
+Aloe-emodin,,Respiratory Toxicity,---,success
+Aloe-emodin,,NR-AR,---,success
+Aloe-emodin,,NR-AR-LBD,--,success
+Aloe-emodin,,NR-AhR,+++,danger
+Aloe-emodin,,NR-Aromatase,--,success
+Aloe-emodin,,NR-ER,++,danger
+Aloe-emodin,,NR-ER-LBD,++,danger
+Aloe-emodin,,NR-PPAR-gamma,+++,danger
+Aloe-emodin,,SR-ARE,++,danger
+Aloe-emodin,,SR-ATAD5,-,warning
+Aloe-emodin,,SR-HSE,---,success
+Aloe-emodin,,SR-MMP,+++,danger
+Aloe-emodin,,SR-p53,++,danger
+Apigenin,,QED,0.632,danger
+Apigenin,,SAscore,2.253,success
+Apigenin,,MCE-18,17.000,danger
+Apigenin,,Lipinski Rule,Accepted,success
+Apigenin,,Pfizer Rule,Accepted,success
+Apigenin,,GSK Rule,Accepted,success
+Apigenin,,Golden Triangle,Accepted,success
+Apigenin,,Caco-2 Permeability,-4.847,success
+Apigenin,,MDCK Permeability,1.2e-05,success
+Apigenin,,Pgp-inhibitor,---,success
+Apigenin,,Pgp-substrate,++,danger
+Apigenin,,HIA,---,success
+Apigenin,,PPB,97.255%,danger
+Apigenin,,VD,0.510,success
+Apigenin,,Fu,3.668%,danger
+Apigenin,,BBB Penetration,---,success
+Apigenin,,CYP1A2 inhibitor,+++,
+Apigenin,,CYP1A2 substrate,--,
+Apigenin,,CYP2C19 inhibitor,+,
+Apigenin,,CYP2C19 substrate,---,
+Apigenin,,CYP2C9 inhibitor,+,
+Apigenin,,CYP2C9 substrate,+++,
+Apigenin,,CYP2D6 inhibitor,++,
+Apigenin,,CYP2D6 substrate,++,
+Apigenin,,CYP3A4 inhibitor,++,
+Apigenin,,CYP3A4 substrate,--,
+Apigenin,,CL,7.022,success
+Apigenin,,hERG Blockers,---,success
+Apigenin,,H-HT,---,success
+Apigenin,,DILI,++,danger
+Apigenin,,AMES Toxicity,-,warning
+Apigenin,,Rat Oral Acute Toxicity,---,success
+Apigenin,,FDAMDD,-,warning
+Apigenin,,Skin Sensitization,+++,danger
+Apigenin,,Carcinogencity,--,success
+Apigenin,,Eye Corrosion,---,success
+Apigenin,,Eye Irritation,+++,danger
+Apigenin,,Respiratory Toxicity,--,success
+Apigenin,,NR-AR,---,success
+Apigenin,,NR-AR-LBD,--,success
+Apigenin,,NR-AhR,+++,danger
+Apigenin,,NR-Aromatase,+++,danger
+Apigenin,,NR-ER,+++,danger
+Apigenin,,NR-ER-LBD,+++,danger
+Apigenin,,NR-PPAR-gamma,+++,danger
+Apigenin,,SR-ARE,+++,danger
+Apigenin,,SR-ATAD5,++,danger
+Apigenin,,SR-HSE,++,danger
+Apigenin,,SR-MMP,+++,danger
+Apigenin,,SR-p53,+++,danger
+Baicalein,,QED,0.591,danger
+Baicalein,,SAscore,2.249,success
+Baicalein,,MCE-18,17.000,danger
+Baicalein,,Lipinski Rule,Accepted,success
+Baicalein,,Pfizer Rule,Accepted,success
+Baicalein,,GSK Rule,Accepted,success
+Baicalein,,Golden Triangle,Accepted,success
+Baicalein,,Caco-2 Permeability,-4.981,success
+Baicalein,,MDCK Permeability,1.3e-05,success
+Baicalein,,Pgp-inhibitor,---,success
+Baicalein,,Pgp-substrate,--,success
+Baicalein,,HIA,---,success
+Baicalein,,PPB,98.992%,danger
+Baicalein,,VD,0.436,success
+Baicalein,,Fu,4.587%,danger
+Baicalein,,BBB Penetration,---,success
+Baicalein,,CYP1A2 inhibitor,+++,
+Baicalein,,CYP1A2 substrate,--,
+Baicalein,,CYP2C19 inhibitor,--,
+Baicalein,,CYP2C19 substrate,---,
+Baicalein,,CYP2C9 inhibitor,+,
+Baicalein,,CYP2C9 substrate,+,
+Baicalein,,CYP2D6 inhibitor,+,
+Baicalein,,CYP2D6 substrate,--,
+Baicalein,,CYP3A4 inhibitor,--,
+Baicalein,,CYP3A4 substrate,---,
+Baicalein,,CL,4.082,danger
+Baicalein,,hERG Blockers,---,success
+Baicalein,,H-HT,---,success
+Baicalein,,DILI,+++,danger
+Baicalein,,AMES Toxicity,-,warning
+Baicalein,,Rat Oral Acute Toxicity,--,success
+Baicalein,,FDAMDD,---,success
+Baicalein,,Skin Sensitization,+++,danger
+Baicalein,,Carcinogencity,-,warning
+Baicalein,,Eye Corrosion,---,success
+Baicalein,,Eye Irritation,+++,danger
+Baicalein,,Respiratory Toxicity,-,warning
+Baicalein,,NR-AR,---,success
+Baicalein,,NR-AR-LBD,--,success
+Baicalein,,NR-AhR,+++,danger
+Baicalein,,NR-Aromatase,++,danger
+Baicalein,,NR-ER,++,danger
+Baicalein,,NR-ER-LBD,++,danger
+Baicalein,,NR-PPAR-gamma,+++,danger
+Baicalein,,SR-ARE,++,danger
+Baicalein,,SR-ATAD5,++,danger
+Baicalein,,SR-HSE,++,danger
+Baicalein,,SR-MMP,+++,danger
+Baicalein,,SR-p53,+++,danger
+Baicalin,,QED,0.299,danger
+Baicalin,,SAscore,3.893,success
+Baicalin,,MCE-18,88.000,success
+Baicalin,,Lipinski Rule,Rejected,danger
+Baicalin,,Pfizer Rule,Accepted,success
+Baicalin,,GSK Rule,Rejected,danger
+Baicalin,,Golden Triangle,Accepted,success
+Baicalin,,Caco-2 Permeability,-6.283,danger
+Baicalin,,MDCK Permeability,1.6e-05,success
+Baicalin,,Pgp-inhibitor,---,success
+Baicalin,,Pgp-substrate,-,warning
+Baicalin,,HIA,-,warning
+Baicalin,,PPB,87.781%,success
+Baicalin,,VD,0.720,success
+Baicalin,,Fu,10.004%,success
+Baicalin,,BBB Penetration,---,success
+Baicalin,,CYP1A2 inhibitor,---,
+Baicalin,,CYP1A2 substrate,---,
+Baicalin,,CYP2C19 inhibitor,---,
+Baicalin,,CYP2C19 substrate,---,
+Baicalin,,CYP2C9 inhibitor,---,
+Baicalin,,CYP2C9 substrate,--,
+Baicalin,,CYP2D6 inhibitor,---,
+Baicalin,,CYP2D6 substrate,--,
+Baicalin,,CYP3A4 inhibitor,---,
+Baicalin,,CYP3A4 substrate,---,
+Baicalin,,CL,1.000,danger
+Baicalin,,hERG Blockers,--,success
+Baicalin,,H-HT,---,success
+Baicalin,,DILI,+++,danger
+Baicalin,,AMES Toxicity,---,success
+Baicalin,,Rat Oral Acute Toxicity,---,success
+Baicalin,,FDAMDD,---,success
+Baicalin,,Skin Sensitization,+,warning
+Baicalin,,Carcinogencity,---,success
+Baicalin,,Eye Corrosion,---,success
+Baicalin,,Eye Irritation,---,success
+Baicalin,,Respiratory Toxicity,---,success
+Baicalin,,NR-AR,---,success
+Baicalin,,NR-AR-LBD,+,warning
+Baicalin,,NR-AhR,++,danger
+Baicalin,,NR-Aromatase,---,success
+Baicalin,,NR-ER,-,warning
+Baicalin,,NR-ER-LBD,---,success
+Baicalin,,NR-PPAR-gamma,++,danger
+Baicalin,,SR-ARE,-,warning
+Baicalin,,SR-ATAD5,---,success
+Baicalin,,SR-HSE,---,success
+Baicalin,,SR-MMP,--,success
+Baicalin,,SR-p53,++,danger
+Berberine,,QED,0.674,success
+Berberine,,SAscore,2.787,success
+Berberine,,MCE-18,56.000,success
+Berberine,,Lipinski Rule,Accepted,success
+Berberine,,Pfizer Rule,Rejected,danger
+Berberine,,GSK Rule,Rejected,danger
+Berberine,,Golden Triangle,Accepted,success
+Berberine,,Caco-2 Permeability,-5.202,danger
+Berberine,,MDCK Permeability,3.5e-05,success
+Berberine,,Pgp-inhibitor,---,success
+Berberine,,Pgp-substrate,+++,danger
+Berberine,,HIA,---,success
+Berberine,,PPB,93.103%,danger
+Berberine,,VD,1.217,success
+Berberine,,Fu,2.335%,danger
+Berberine,,BBB Penetration,+++,danger
+Berberine,,CYP1A2 inhibitor,++,
+Berberine,,CYP1A2 substrate,++,
+Berberine,,CYP2C19 inhibitor,---,
+Berberine,,CYP2C19 substrate,++,
+Berberine,,CYP2C9 inhibitor,---,
+Berberine,,CYP2C9 substrate,++,
+Berberine,,CYP2D6 inhibitor,+++,
+Berberine,,CYP2D6 substrate,+++,
+Berberine,,CYP3A4 inhibitor,-,
+Berberine,,CYP3A4 substrate,-,
+Berberine,,CL,12.703,success
+Berberine,,hERG Blockers,--,success
+Berberine,,H-HT,---,success
+Berberine,,DILI,+,warning
+Berberine,,AMES Toxicity,-,warning
+Berberine,,Rat Oral Acute Toxicity,---,success
+Berberine,,FDAMDD,++,danger
+Berberine,,Skin Sensitization,++,danger
+Berberine,,Carcinogencity,+++,danger
+Berberine,,Eye Corrosion,---,success
+Berberine,,Eye Irritation,---,success
+Berberine,,Respiratory Toxicity,++,danger
+Berberine,,NR-AR,+,warning
+Berberine,,NR-AR-LBD,--,success
+Berberine,,NR-AhR,+++,danger
+Berberine,,NR-Aromatase,++,danger
+Berberine,,NR-ER,--,success
+Berberine,,NR-ER-LBD,+,warning
+Berberine,,NR-PPAR-gamma,---,success
+Berberine,,SR-ARE,+++,danger
+Berberine,,SR-ATAD5,++,danger
+Berberine,,SR-HSE,-,warning
+Berberine,,SR-MMP,++,danger
+Berberine,,SR-p53,+++,danger
+Chrysin,,QED,0.700,success
+Chrysin,,SAscore,2.096,success
+Chrysin,,MCE-18,16.000,danger
+Chrysin,,Lipinski Rule,Accepted,success
+Chrysin,,Pfizer Rule,Rejected,danger
+Chrysin,,GSK Rule,Accepted,success
+Chrysin,,Golden Triangle,Accepted,success
+Chrysin,,Caco-2 Permeability,-4.874,success
+Chrysin,,MDCK Permeability,1.3e-05,success
+Chrysin,,Pgp-inhibitor,---,success
+Chrysin,,Pgp-substrate,++,danger
+Chrysin,,HIA,---,success
+Chrysin,,PPB,98.028%,danger
+Chrysin,,VD,0.493,success
+Chrysin,,Fu,2.776%,danger
+Chrysin,,BBB Penetration,---,success
+Chrysin,,CYP1A2 inhibitor,+++,
+Chrysin,,CYP1A2 substrate,--,
+Chrysin,,CYP2C19 inhibitor,++,
+Chrysin,,CYP2C19 substrate,---,
+Chrysin,,CYP2C9 inhibitor,++,
+Chrysin,,CYP2C9 substrate,+++,
+Chrysin,,CYP2D6 inhibitor,++,
+Chrysin,,CYP2D6 substrate,+,
+Chrysin,,CYP3A4 inhibitor,+,
+Chrysin,,CYP3A4 substrate,--,
+Chrysin,,CL,5.131,success
+Chrysin,,hERG Blockers,---,success
+Chrysin,,H-HT,---,success
+Chrysin,,DILI,++,danger
+Chrysin,,AMES Toxicity,+,warning
+Chrysin,,Rat Oral Acute Toxicity,---,success
+Chrysin,,FDAMDD,-,warning
+Chrysin,,Skin Sensitization,+++,danger
+Chrysin,,Carcinogencity,-,warning
+Chrysin,,Eye Corrosion,---,success
+Chrysin,,Eye Irritation,+++,danger
+Chrysin,,Respiratory Toxicity,+,warning
+Chrysin,,NR-AR,---,success
+Chrysin,,NR-AR-LBD,---,success
+Chrysin,,NR-AhR,+++,danger
+Chrysin,,NR-Aromatase,++,danger
+Chrysin,,NR-ER,+++,danger
+Chrysin,,NR-ER-LBD,+++,danger
+Chrysin,,NR-PPAR-gamma,+++,danger
+Chrysin,,SR-ARE,+++,danger
+Chrysin,,SR-ATAD5,++,danger
+Chrysin,,SR-HSE,++,danger
+Chrysin,,SR-MMP,+++,danger
+Chrysin,,SR-p53,++,danger
+Chrysophanol,,QED,0.644,danger
+Chrysophanol,,SAscore,2.189,success
+Chrysophanol,,MCE-18,36.000,danger
+Chrysophanol,,Lipinski Rule,Accepted,success
+Chrysophanol,,Pfizer Rule,Rejected,danger
+Chrysophanol,,GSK Rule,Rejected,danger
+Chrysophanol,,Golden Triangle,Accepted,success
+Chrysophanol,,Caco-2 Permeability,-4.936,success
+Chrysophanol,,MDCK Permeability,1.4e-05,success
+Chrysophanol,,Pgp-inhibitor,---,success
+Chrysophanol,,Pgp-substrate,---,success
+Chrysophanol,,HIA,---,success
+Chrysophanol,,PPB,99.635%,danger
+Chrysophanol,,VD,0.457,success
+Chrysophanol,,Fu,0.833%,danger
+Chrysophanol,,BBB Penetration,--,success
+Chrysophanol,,CYP1A2 inhibitor,+++,
+Chrysophanol,,CYP1A2 substrate,-,
+Chrysophanol,,CYP2C19 inhibitor,--,
+Chrysophanol,,CYP2C19 substrate,---,
+Chrysophanol,,CYP2C9 inhibitor,+,
+Chrysophanol,,CYP2C9 substrate,-,
+Chrysophanol,,CYP2D6 inhibitor,+,
+Chrysophanol,,CYP2D6 substrate,--,
+Chrysophanol,,CYP3A4 inhibitor,+,
+Chrysophanol,,CYP3A4 substrate,--,
+Chrysophanol,,CL,6.205,success
+Chrysophanol,,hERG Blockers,---,success
+Chrysophanol,,H-HT,---,success
+Chrysophanol,,DILI,+++,danger
+Chrysophanol,,AMES Toxicity,++,danger
+Chrysophanol,,Rat Oral Acute Toxicity,--,success
+Chrysophanol,,FDAMDD,++,danger
+Chrysophanol,,Skin Sensitization,+,warning
+Chrysophanol,,Carcinogencity,+++,danger
+Chrysophanol,,Eye Corrosion,---,success
+Chrysophanol,,Eye Irritation,+++,danger
+Chrysophanol,,Respiratory Toxicity,---,success
+Chrysophanol,,NR-AR,---,success
+Chrysophanol,,NR-AR-LBD,--,success
+Chrysophanol,,NR-AhR,+++,danger
+Chrysophanol,,NR-Aromatase,--,success
+Chrysophanol,,NR-ER,++,danger
+Chrysophanol,,NR-ER-LBD,++,danger
+Chrysophanol,,NR-PPAR-gamma,+++,danger
+Chrysophanol,,SR-ARE,+++,danger
+Chrysophanol,,SR-ATAD5,++,danger
+Chrysophanol,,SR-HSE,---,success
+Chrysophanol,,SR-MMP,+++,danger
+Chrysophanol,,SR-p53,+,warning
+Coptisine,,QED,0.597,danger
+Coptisine,,SAscore,3.016,success
+Coptisine,,MCE-18,65.739,success
+Coptisine,,Lipinski Rule,Accepted,success
+Coptisine,,Pfizer Rule,Rejected,danger
+Coptisine,,GSK Rule,Rejected,danger
+Coptisine,,Golden Triangle,Accepted,success
+Coptisine,,Caco-2 Permeability,-5.262,danger
+Coptisine,,MDCK Permeability,3e-05,success
+Coptisine,,Pgp-inhibitor,---,success
+Coptisine,,Pgp-substrate,+++,danger
+Coptisine,,HIA,---,success
+Coptisine,,PPB,96.577%,danger
+Coptisine,,VD,1.661,success
+Coptisine,,Fu,1.915%,danger
+Coptisine,,BBB Penetration,+,warning
+Coptisine,,CYP1A2 inhibitor,+++,
+Coptisine,,CYP1A2 substrate,--,
+Coptisine,,CYP2C19 inhibitor,--,
+Coptisine,,CYP2C19 substrate,-,
+Coptisine,,CYP2C9 inhibitor,---,
+Coptisine,,CYP2C9 substrate,++,
+Coptisine,,CYP2D6 inhibitor,+++,
+Coptisine,,CYP2D6 substrate,+++,
+Coptisine,,CYP3A4 inhibitor,++,
+Coptisine,,CYP3A4 substrate,--,
+Coptisine,,CL,15.587,success
+Coptisine,,hERG Blockers,--,success
+Coptisine,,H-HT,---,success
+Coptisine,,DILI,+,warning
+Coptisine,,AMES Toxicity,+,warning
+Coptisine,,Rat Oral Acute Toxicity,---,success
+Coptisine,,FDAMDD,++,danger
+Coptisine,,Skin Sensitization,+++,danger
+Coptisine,,Carcinogencity,+++,danger
+Coptisine,,Eye Corrosion,---,success
+Coptisine,,Eye Irritation,---,success
+Coptisine,,Respiratory Toxicity,++,danger
+Coptisine,,NR-AR,--,success
+Coptisine,,NR-AR-LBD,--,success
+Coptisine,,NR-AhR,+++,danger
+Coptisine,,NR-Aromatase,--,success
+Coptisine,,NR-ER,+,warning
+Coptisine,,NR-ER-LBD,++,danger
+Coptisine,,NR-PPAR-gamma,---,success
+Coptisine,,SR-ARE,+++,danger
+Coptisine,,SR-ATAD5,++,danger
+Coptisine,,SR-HSE,++,danger
+Coptisine,,SR-MMP,++,danger
+Coptisine,,SR-p53,+++,danger
+Emodin,,QED,0.579,danger
+Emodin,,SAscore,2.409,success
+Emodin,,MCE-18,38.000,danger
+Emodin,,Lipinski Rule,Accepted,success
+Emodin,,Pfizer Rule,Accepted,success
+Emodin,,GSK Rule,Accepted,success
+Emodin,,Golden Triangle,Accepted,success
+Emodin,,Caco-2 Permeability,-5.149,success
+Emodin,,MDCK Permeability,1.1e-05,success
+Emodin,,Pgp-inhibitor,---,success
+Emodin,,Pgp-substrate,---,success
+Emodin,,HIA,---,success
+Emodin,,PPB,99.295%,danger
+Emodin,,VD,0.482,success
+Emodin,,Fu,1.640%,danger
+Emodin,,BBB Penetration,---,success
+Emodin,,CYP1A2 inhibitor,+++,
+Emodin,,CYP1A2 substrate,-,
+Emodin,,CYP2C19 inhibitor,--,
+Emodin,,CYP2C19 substrate,---,
+Emodin,,CYP2C9 inhibitor,+,
+Emodin,,CYP2C9 substrate,-,
+Emodin,,CYP2D6 inhibitor,-,
+Emodin,,CYP2D6 substrate,--,
+Emodin,,CYP3A4 inhibitor,+,
+Emodin,,CYP3A4 substrate,--,
+Emodin,,CL,9.245,success
+Emodin,,hERG Blockers,---,success
+Emodin,,H-HT,---,success
+Emodin,,DILI,+++,danger
+Emodin,,AMES Toxicity,++,danger
+Emodin,,Rat Oral Acute Toxicity,---,success
+Emodin,,FDAMDD,+++,danger
+Emodin,,Skin Sensitization,+,warning
+Emodin,,Carcinogencity,-,warning
+Emodin,,Eye Corrosion,---,success
+Emodin,,Eye Irritation,+++,danger
+Emodin,,Respiratory Toxicity,---,success
+Emodin,,NR-AR,---,success
+Emodin,,NR-AR-LBD,-,warning
+Emodin,,NR-AhR,+++,danger
+Emodin,,NR-Aromatase,--,success
+Emodin,,NR-ER,+++,danger
+Emodin,,NR-ER-LBD,+++,danger
+Emodin,,NR-PPAR-gamma,+++,danger
+Emodin,,SR-ARE,+++,danger
+Emodin,,SR-ATAD5,+,warning
+Emodin,,SR-HSE,--,success
+Emodin,,SR-MMP,+++,danger
+Emodin,,SR-p53,++,danger
+Jatrorrhizine,,QED,0.746,success
+Jatrorrhizine,,SAscore,2.740,success
+Jatrorrhizine,,MCE-18,47.520,success
+Jatrorrhizine,,Lipinski Rule,Accepted,success
+Jatrorrhizine,,Pfizer Rule,Rejected,danger
+Jatrorrhizine,,GSK Rule,Accepted,success
+Jatrorrhizine,,Golden Triangle,Accepted,success
+Jatrorrhizine,,Caco-2 Permeability,-5.105,success
+Jatrorrhizine,,MDCK Permeability,1.9e-05,success
+Jatrorrhizine,,Pgp-inhibitor,---,success
+Jatrorrhizine,,Pgp-substrate,+++,danger
+Jatrorrhizine,,HIA,---,success
+Jatrorrhizine,,PPB,85.670%,success
+Jatrorrhizine,,VD,1.047,success
+Jatrorrhizine,,Fu,7.587%,success
+Jatrorrhizine,,BBB Penetration,++,danger
+Jatrorrhizine,,CYP1A2 inhibitor,-,
+Jatrorrhizine,,CYP1A2 substrate,+++,
+Jatrorrhizine,,CYP2C19 inhibitor,---,
+Jatrorrhizine,,CYP2C19 substrate,++,
+Jatrorrhizine,,CYP2C9 inhibitor,---,
+Jatrorrhizine,,CYP2C9 substrate,++,
+Jatrorrhizine,,CYP2D6 inhibitor,-,
+Jatrorrhizine,,CYP2D6 substrate,+++,
+Jatrorrhizine,,CYP3A4 inhibitor,---,
+Jatrorrhizine,,CYP3A4 substrate,-,
+Jatrorrhizine,,CL,10.517,success
+Jatrorrhizine,,hERG Blockers,--,success
+Jatrorrhizine,,H-HT,---,success
+Jatrorrhizine,,DILI,+,warning
+Jatrorrhizine,,AMES Toxicity,-,warning
+Jatrorrhizine,,Rat Oral Acute Toxicity,--,success
+Jatrorrhizine,,FDAMDD,++,danger
+Jatrorrhizine,,Skin Sensitization,+++,danger
+Jatrorrhizine,,Carcinogencity,--,success
+Jatrorrhizine,,Eye Corrosion,---,success
+Jatrorrhizine,,Eye Irritation,---,success
+Jatrorrhizine,,Respiratory Toxicity,++,danger
+Jatrorrhizine,,NR-AR,--,success
+Jatrorrhizine,,NR-AR-LBD,--,success
+Jatrorrhizine,,NR-AhR,+++,danger
+Jatrorrhizine,,NR-Aromatase,++,danger
+Jatrorrhizine,,NR-ER,--,success
+Jatrorrhizine,,NR-ER-LBD,++,danger
+Jatrorrhizine,,NR-PPAR-gamma,---,success
+Jatrorrhizine,,SR-ARE,+++,danger
+Jatrorrhizine,,SR-ATAD5,+,warning
+Jatrorrhizine,,SR-HSE,++,danger
+Jatrorrhizine,,SR-MMP,+++,danger
+Jatrorrhizine,,SR-p53,++,danger
+Magnoflorine,,QED,0.824,success
+Magnoflorine,,SAscore,3.545,success
+Magnoflorine,,MCE-18,82.143,success
+Magnoflorine,,Lipinski Rule,Accepted,success
+Magnoflorine,,Pfizer Rule,Accepted,success
+Magnoflorine,,GSK Rule,Accepted,success
+Magnoflorine,,Golden Triangle,Accepted,success
+Magnoflorine,,Caco-2 Permeability,-5.796,danger
+Magnoflorine,,MDCK Permeability,5.7e-06,success
+Magnoflorine,,Pgp-inhibitor,---,success
+Magnoflorine,,Pgp-substrate,+++,danger
+Magnoflorine,,HIA,+++,danger
+Magnoflorine,,PPB,59.289%,success
+Magnoflorine,,VD,1.758,success
+Magnoflorine,,Fu,25.033%,success
+Magnoflorine,,BBB Penetration,--,success
+Magnoflorine,,CYP1A2 inhibitor,---,
+Magnoflorine,,CYP1A2 substrate,+++,
+Magnoflorine,,CYP2C19 inhibitor,---,
+Magnoflorine,,CYP2C19 substrate,--,
+Magnoflorine,,CYP2C9 inhibitor,---,
+Magnoflorine,,CYP2C9 substrate,-,
+Magnoflorine,,CYP2D6 inhibitor,---,
+Magnoflorine,,CYP2D6 substrate,+++,
+Magnoflorine,,CYP3A4 inhibitor,---,
+Magnoflorine,,CYP3A4 substrate,+,
+Magnoflorine,,CL,3.481,danger
+Magnoflorine,,hERG Blockers,---,success
+Magnoflorine,,H-HT,---,success
+Magnoflorine,,DILI,---,success
+Magnoflorine,,AMES Toxicity,--,success
+Magnoflorine,,Rat Oral Acute Toxicity,-,warning
+Magnoflorine,,FDAMDD,+++,danger
+Magnoflorine,,Skin Sensitization,--,success
+Magnoflorine,,Carcinogencity,---,success
+Magnoflorine,,Eye Corrosion,---,success
+Magnoflorine,,Eye Irritation,---,success
+Magnoflorine,,Respiratory Toxicity,++,danger
+Magnoflorine,,NR-AR,---,success
+Magnoflorine,,NR-AR-LBD,---,success
+Magnoflorine,,NR-AhR,--,success
+Magnoflorine,,NR-Aromatase,---,success
+Magnoflorine,,NR-ER,--,success
+Magnoflorine,,NR-ER-LBD,---,success
+Magnoflorine,,NR-PPAR-gamma,---,success
+Magnoflorine,,SR-ARE,+,warning
+Magnoflorine,,SR-ATAD5,---,success
+Magnoflorine,,SR-HSE,---,success
+Magnoflorine,,SR-MMP,-,warning
+Magnoflorine,,SR-p53,+,warning
+Oroxylin A,,QED,0.756,success
+Oroxylin A,,SAscore,2.246,success
+Oroxylin A,,MCE-18,17.000,danger
+Oroxylin A,,Lipinski Rule,Accepted,success
+Oroxylin A,,Pfizer Rule,Accepted,success
+Oroxylin A,,GSK Rule,Accepted,success
+Oroxylin A,,Golden Triangle,Accepted,success
+Oroxylin A,,Caco-2 Permeability,-4.880,success
+Oroxylin A,,MDCK Permeability,1.6e-05,success
+Oroxylin A,,Pgp-inhibitor,+++,danger
+Oroxylin A,,Pgp-substrate,-,warning
+Oroxylin A,,HIA,---,success
+Oroxylin A,,PPB,97.064%,danger
+Oroxylin A,,VD,0.490,success
+Oroxylin A,,Fu,6.005%,success
+Oroxylin A,,BBB Penetration,---,success
+Oroxylin A,,CYP1A2 inhibitor,+++,
+Oroxylin A,,CYP1A2 substrate,++,
+Oroxylin A,,CYP2C19 inhibitor,+,
+Oroxylin A,,CYP2C19 substrate,---,
+Oroxylin A,,CYP2C9 inhibitor,++,
+Oroxylin A,,CYP2C9 substrate,++,
+Oroxylin A,,CYP2D6 inhibitor,+,
+Oroxylin A,,CYP2D6 substrate,-,
+Oroxylin A,,CYP3A4 inhibitor,-,
+Oroxylin A,,CYP3A4 substrate,--,
+Oroxylin A,,CL,2.600,danger
+Oroxylin A,,hERG Blockers,---,success
+Oroxylin A,,H-HT,---,success
+Oroxylin A,,DILI,+++,danger
+Oroxylin A,,AMES Toxicity,+,warning
+Oroxylin A,,Rat Oral Acute Toxicity,--,success
+Oroxylin A,,FDAMDD,--,success
+Oroxylin A,,Skin Sensitization,++,danger
+Oroxylin A,,Carcinogencity,--,success
+Oroxylin A,,Eye Corrosion,---,success
+Oroxylin A,,Eye Irritation,+++,danger
+Oroxylin A,,Respiratory Toxicity,-,warning
+Oroxylin A,,NR-AR,---,success
+Oroxylin A,,NR-AR-LBD,--,success
+Oroxylin A,,NR-AhR,+++,danger
+Oroxylin A,,NR-Aromatase,++,danger
+Oroxylin A,,NR-ER,+,warning
+Oroxylin A,,NR-ER-LBD,++,danger
+Oroxylin A,,NR-PPAR-gamma,+++,danger
+Oroxylin A,,SR-ARE,+++,danger
+Oroxylin A,,SR-ATAD5,++,danger
+Oroxylin A,,SR-HSE,++,danger
+Oroxylin A,,SR-MMP,+++,danger
+Oroxylin A,,SR-p53,+++,danger
+Palmatine,,QED,0.675,success
+Palmatine,,SAscore,2.620,success
+Palmatine,,MCE-18,47.259,success
+Palmatine,,Lipinski Rule,Accepted,success
+Palmatine,,Pfizer Rule,Rejected,danger
+Palmatine,,GSK Rule,Accepted,success
+Palmatine,,Golden Triangle,Accepted,success
+Palmatine,,Caco-2 Permeability,-5.132,success
+Palmatine,,MDCK Permeability,3.7e-05,success
+Palmatine,,Pgp-inhibitor,---,success
+Palmatine,,Pgp-substrate,+++,danger
+Palmatine,,HIA,---,success
+Palmatine,,PPB,74.570%,success
+Palmatine,,VD,1.199,success
+Palmatine,,Fu,7.242%,success
+Palmatine,,BBB Penetration,+++,danger
+Palmatine,,CYP1A2 inhibitor,--,
+Palmatine,,CYP1A2 substrate,+++,
+Palmatine,,CYP2C19 inhibitor,---,
+Palmatine,,CYP2C19 substrate,+++,
+Palmatine,,CYP2C9 inhibitor,---,
+Palmatine,,CYP2C9 substrate,++,
+Palmatine,,CYP2D6 inhibitor,--,
+Palmatine,,CYP2D6 substrate,+++,
+Palmatine,,CYP3A4 inhibitor,---,
+Palmatine,,CYP3A4 substrate,++,
+Palmatine,,CL,9.265,success
+Palmatine,,hERG Blockers,-,warning
+Palmatine,,H-HT,---,success
+Palmatine,,DILI,++,danger
+Palmatine,,AMES Toxicity,--,success
+Palmatine,,Rat Oral Acute Toxicity,--,success
+Palmatine,,FDAMDD,+,warning
+Palmatine,,Skin Sensitization,++,danger
+Palmatine,,Carcinogencity,---,success
+Palmatine,,Eye Corrosion,---,success
+Palmatine,,Eye Irritation,---,success
+Palmatine,,Respiratory Toxicity,+,warning
+Palmatine,,NR-AR,--,success
+Palmatine,,NR-AR-LBD,---,success
+Palmatine,,NR-AhR,++,danger
+Palmatine,,NR-Aromatase,++,danger
+Palmatine,,NR-ER,---,success
+Palmatine,,NR-ER-LBD,-,warning
+Palmatine,,NR-PPAR-gamma,---,success
+Palmatine,,SR-ARE,++,danger
+Palmatine,,SR-ATAD5,++,danger
+Palmatine,,SR-HSE,--,success
+Palmatine,,SR-MMP,+,warning
+Palmatine,,SR-p53,++,danger
+Rhein,,QED,0.625,danger
+Rhein,,SAscore,2.235,success
+Rhein,,MCE-18,38.000,danger
+Rhein,,Lipinski Rule,Accepted,success
+Rhein,,Pfizer Rule,Accepted,success
+Rhein,,GSK Rule,Accepted,success
+Rhein,,Golden Triangle,Accepted,success
+Rhein,,Caco-2 Permeability,-5.232,danger
+Rhein,,MDCK Permeability,7.9e-06,success
+Rhein,,Pgp-inhibitor,---,success
+Rhein,,Pgp-substrate,---,success
+Rhein,,HIA,---,success
+Rhein,,PPB,98.094%,danger
+Rhein,,VD,0.497,success
+Rhein,,Fu,1.805%,danger
+Rhein,,BBB Penetration,---,success
+Rhein,,CYP1A2 inhibitor,-,
+Rhein,,CYP1A2 substrate,---,
+Rhein,,CYP2C19 inhibitor,---,
+Rhein,,CYP2C19 substrate,---,
+Rhein,,CYP2C9 inhibitor,-,
+Rhein,,CYP2C9 substrate,---,
+Rhein,,CYP2D6 inhibitor,--,
+Rhein,,CYP2D6 substrate,---,
+Rhein,,CYP3A4 inhibitor,--,
+Rhein,,CYP3A4 substrate,---,
+Rhein,,CL,0.908,danger
+Rhein,,hERG Blockers,---,success
+Rhein,,H-HT,--,success
+Rhein,,DILI,+++,danger
+Rhein,,AMES Toxicity,+++,danger
+Rhein,,Rat Oral Acute Toxicity,---,success
+Rhein,,FDAMDD,---,success
+Rhein,,Skin Sensitization,+,warning
+Rhein,,Carcinogencity,+,warning
+Rhein,,Eye Corrosion,---,success
+Rhein,,Eye Irritation,++,danger
+Rhein,,Respiratory Toxicity,---,success
+Rhein,,NR-AR,---,success
+Rhein,,NR-AR-LBD,--,success
+Rhein,,NR-AhR,+++,danger
+Rhein,,NR-Aromatase,---,success
+Rhein,,NR-ER,++,danger
+Rhein,,NR-ER-LBD,+,warning
+Rhein,,NR-PPAR-gamma,+++,danger
+Rhein,,SR-ARE,++,danger
+Rhein,,SR-ATAD5,-,warning
+Rhein,,SR-HSE,--,success
+Rhein,,SR-MMP,+++,danger
+Rhein,,SR-p53,-,warning
+Wogonin,,QED,0.756,success
+Wogonin,,SAscore,2.288,success
+Wogonin,,MCE-18,17.000,danger
+Wogonin,,Lipinski Rule,Accepted,success
+Wogonin,,Pfizer Rule,Accepted,success
+Wogonin,,GSK Rule,Accepted,success
+Wogonin,,Golden Triangle,Accepted,success
+Wogonin,,Caco-2 Permeability,-4.884,success
+Wogonin,,MDCK Permeability,1.6e-05,success
+Wogonin,,Pgp-inhibitor,-,warning
+Wogonin,,Pgp-substrate,---,success
+Wogonin,,HIA,---,success
+Wogonin,,PPB,96.631%,danger
+Wogonin,,VD,0.557,success
+Wogonin,,Fu,5.989%,success
+Wogonin,,BBB Penetration,---,success
+Wogonin,,CYP1A2 inhibitor,+++,
+Wogonin,,CYP1A2 substrate,++,
+Wogonin,,CYP2C19 inhibitor,+,
+Wogonin,,CYP2C19 substrate,---,
+Wogonin,,CYP2C9 inhibitor,++,
+Wogonin,,CYP2C9 substrate,++,
+Wogonin,,CYP2D6 inhibitor,+,
+Wogonin,,CYP2D6 substrate,--,
+Wogonin,,CYP3A4 inhibitor,-,
+Wogonin,,CYP3A4 substrate,--,
+Wogonin,,CL,4.507,danger
+Wogonin,,hERG Blockers,---,success
+Wogonin,,H-HT,---,success
+Wogonin,,DILI,+++,danger
+Wogonin,,AMES Toxicity,+,warning
+Wogonin,,Rat Oral Acute Toxicity,--,success
+Wogonin,,FDAMDD,---,success
+Wogonin,,Skin Sensitization,++,danger
+Wogonin,,Carcinogencity,-,warning
+Wogonin,,Eye Corrosion,---,success
+Wogonin,,Eye Irritation,++,danger
+Wogonin,,Respiratory Toxicity,-,warning
+Wogonin,,NR-AR,---,success
+Wogonin,,NR-AR-LBD,---,success
+Wogonin,,NR-AhR,+++,danger
+Wogonin,,NR-Aromatase,++,danger
+Wogonin,,NR-ER,+,warning
+Wogonin,,NR-ER-LBD,++,danger
+Wogonin,,NR-PPAR-gamma,+++,danger
+Wogonin,,SR-ARE,++,danger
+Wogonin,,SR-ATAD5,++,danger
+Wogonin,,SR-HSE,-,warning
+Wogonin,,SR-MMP,++,danger
+Wogonin,,SR-p53,++,danger
+Wogonoside,,QED,0.357,danger
+Wogonoside,,SAscore,3.897,success
+Wogonoside,,MCE-18,87.286,success
+Wogonoside,,Lipinski Rule,Accepted,success
+Wogonoside,,Pfizer Rule,Accepted,success
+Wogonoside,,GSK Rule,Rejected,danger
+Wogonoside,,Golden Triangle,Accepted,success
+Wogonoside,,Caco-2 Permeability,-6.267,danger
+Wogonoside,,MDCK Permeability,3.1e-05,success
+Wogonoside,,Pgp-inhibitor,---,success
+Wogonoside,,Pgp-substrate,--,success
+Wogonoside,,HIA,--,success
+Wogonoside,,PPB,80.873%,success
+Wogonoside,,VD,0.749,success
+Wogonoside,,Fu,12.726%,success
+Wogonoside,,BBB Penetration,---,success
+Wogonoside,,CYP1A2 inhibitor,---,
+Wogonoside,,CYP1A2 substrate,--,
+Wogonoside,,CYP2C19 inhibitor,---,
+Wogonoside,,CYP2C19 substrate,---,
+Wogonoside,,CYP2C9 inhibitor,---,
+Wogonoside,,CYP2C9 substrate,--,
+Wogonoside,,CYP2D6 inhibitor,---,
+Wogonoside,,CYP2D6 substrate,--,
+Wogonoside,,CYP3A4 inhibitor,---,
+Wogonoside,,CYP3A4 substrate,---,
+Wogonoside,,CL,1.026,danger
+Wogonoside,,hERG Blockers,--,success
+Wogonoside,,H-HT,--,success
+Wogonoside,,DILI,+++,danger
+Wogonoside,,AMES Toxicity,-,warning
+Wogonoside,,Rat Oral Acute Toxicity,---,success
+Wogonoside,,FDAMDD,---,success
+Wogonoside,,Skin Sensitization,--,success
+Wogonoside,,Carcinogencity,--,success
+Wogonoside,,Eye Corrosion,---,success
+Wogonoside,,Eye Irritation,---,success
+Wogonoside,,Respiratory Toxicity,---,success
+Wogonoside,,NR-AR,---,success
+Wogonoside,,NR-AR-LBD,-,warning
+Wogonoside,,NR-AhR,++,danger
+Wogonoside,,NR-Aromatase,-,warning
+Wogonoside,,NR-ER,-,warning
+Wogonoside,,NR-ER-LBD,---,success
+Wogonoside,,NR-PPAR-gamma,+,warning
+Wogonoside,,SR-ARE,--,success
+Wogonoside,,SR-ATAD5,---,success
+Wogonoside,,SR-HSE,---,success
+Wogonoside,,SR-MMP,--,success
+Wogonoside,,SR-p53,+,warning

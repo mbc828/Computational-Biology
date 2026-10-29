@@ -1,0 +1,110 @@
+{
+ "cohort": "GSE255786 纠正标签, PJI=53 vs AF=40, 假体超声处理液",
+ "genes_after_filter": 18192,
+ "methods": "LASSO / SVM-RFE(30) / RandomForest; 变体: LASSO+RF全特征",
+ "lasso_genes": [
+  "EFNA2",
+  "NKX3-1",
+  "RPS10P7",
+  "S1PR2"
+ ],
+ "consensus_2of3": [
+  "ARSI",
+  "C10orf32",
+  "CLEC4GP1",
+  "EFNA2",
+  "FKBP9L",
+  "GPM6A",
+  "HAS2",
+  "IBA57",
+  "LOC100129858",
+  "LOC100131208",
+  "NKX3-1",
+  "PAN3",
+  "PVR",
+  "RAB2B",
+  "RFPL1-AS1",
+  "RPS10P7",
+  "S1PR2",
+  "SEMA3A",
+  "SLC6A14"
+ ],
+ "cv_auc": {
+  "LASSO": {
+   "mean": 0.9909090909090909,
+   "sd": 0.01864929337135027,
+   "folds": 15
+  },
+  "SVM-RFE": {
+   "mean": 0.984090909090909,
+   "sd": 0.03208760391598088,
+   "folds": 15
+  },
+  "RandomForest": {
+   "mean": 0.9893939393939394,
+   "sd": 0.022138847266973443,
+   "folds": 15
+  },
+  "共识基因+LR": {
+   "mean": 0.996969696969697,
+   "sd": 0.008769573411204734,
+   "folds": 15
+  }
+ },
+ "pathway_genes_not_selected": true,
+ "study_genes_rf_rank": {
+  "TLR2": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "LY96": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "MYD88": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "IL1B": {
+   "rank": 168,
+   "importance": 0.0015645071635838445
+  },
+  "IL6": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "TNF": {
+   "rank": 754,
+   "importance": 0.00012360446570972887
+  },
+  "CASP1": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "NFKBIA": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "TLR4": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "NLRP3": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "GSDMD": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "IKBKB": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "PYCARD": {
+   "rank": 9953,
+   "importance": 0.0
+  }
+ },
+ "caveat": "单队列内部重复CV, 偏乐观; 无外部验证; 不作诊断宣称; ML判别信号未收敛到NLRP3/TLR4/IKKβ轴基因"
+}

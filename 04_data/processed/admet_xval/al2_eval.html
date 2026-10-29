@@ -1,0 +1,451 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="/static/favicon.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>ADMETlab 2.0</title>
+    
+    <link rel="stylesheet" href="/static/home/css/style.css">
+    
+    <link href="/static/common/DataTables/DataTables-1.10.24/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <script src="/static/common/js/jquery.min.js"></script>
+
+    <script src="/static/common/DataTables/DataTables-1.10.24/js/jquery.dataTables.min.js"></script>
+
+    <script src="/static/common/DataTables/DataTables-1.10.24/js/dataTables.bootstrap4.min.js"></script>
+
+
+    
+    
+        <link rel="stylesheet" href="/static/nav/css/style.css">
+        <script src="/static/nav/js/style.js"></script>
+    
+
+    
+    <link href="/static/common/bootstrap-4.5.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <script src="/static/common/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+
+    
+    <link rel="stylesheet" href="/static/footer/css/style.css">
+
+    
+    <link rel="stylesheet" href="/static/backtotop/css/unicons.css">
+    <link rel="stylesheet" href="/static/backtotop/css/style.css">
+    <script src="/static/backtotop/js/style.js"></script>
+
+    
+    <link rel="stylesheet" href="/static/common/banner/css/style.css">
+
+    
+    <link href="/static/common/fontawesome-free-5.15.2-web/css/fontawesome.min.css" rel="stylesheet">
+    <link href="/static/common/fontawesome-free-5.15.2-web/css/solid.css" rel="stylesheet">
+    
+
+</head>
+<body>
+
+<div class="antin-container">
+
+    
+        
+
+
+<header class="header-area overlay">
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <a href="/" class="navbar-brand d-flex justify-content-center align-items-center">
+                <img src="/static/favicon.ico" width="45" height="45"
+                    class="d-inline-block justify-content-center align-items-center mr-2" alt="">
+                <span class="">ADMETlab 2.0</span>
+            </a>
+
+            <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
+                <span class="menu-icon-bar"></span>
+                <span class="menu-icon-bar"></span>
+                <span class="menu-icon-bar"></span>
+            </button>
+
+            <div id="main-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li>
+                        <a href="/" class="nav-item nav-link py-3">
+                            <i class="fas fa-home"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-item nav-link py-3" data-toggle="dropdown" style="height: 100%">
+                            <i class="fas fa-atom"></i>
+                            Services
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="/service/evaluation/index" class="dropdown-item">ADMET Evaluation</a>
+                            <a href="/service/screening/index" class="dropdown-item">ADMET Screening</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-item nav-link py-3" data-toggle="dropdown" style="height: 100%">
+                            <i class="fas fa-book"></i>
+                            Resources
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="/resources/DA" class="dropdown-item">Diversity <span
+                                    style="font-family: Arial">&</span> Available</a>
+                            <a href="/docs/" class="dropdown-item" target="_blank">Documentation</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="/explanation/index" class="nav-item nav-link py-3">
+                            <i class="fas fa-comment-alt"></i>
+                            Explanation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/pub/" class="nav-item nav-link py-3">
+                            <i class="fas fa-copy"></i>
+                            Publications
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/contact/" class="nav-item nav-link py-3">
+                            <i class="fas fa-id-card"></i>
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+    
+
+    
+
+
+    <!--[if lt IE 7]>
+    <p class="chromeframe">You are using a</p><p class="chromeframe">n <strong>outdated</strong> browser. Please <a
+            href="http://browsehappy.com/">upgrade your browser</a> or <a
+            href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your
+        experience.</p>
+    <![endif]-->
+    <div class="antin-contain">
+        
+    
+
+<link rel="stylesheet" href="/static/services/evaluation/css/style.css">
+
+
+<script type="text/javascript" language="javascript" src="/static/common/chemeditor/jsme.nocache.js"></script>
+
+
+<script src="/static/common/validate/js/validator.js"></script>
+
+
+<script src="/static/common/validate/js/spin.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
+<div class="container">
+    <nav aria-label="breadcrumb" class="mt-2">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item align-items-center"><i class="fas fa-home"></i> <a
+                    href="/">Home</a></li>
+            <li class="breadcrumb-item"><a href="/service/evaluation/index">Services</a></li>
+            <li class="breadcrumb-item active" aria-current="page">ADMET Evaluation</li>
+        </ol>
+    </nav>
+
+    <div id="evaluation-container">
+
+        <ul class="nav nav-tabs nav-fill" id="methods" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="input-tab" data-toggle="tab" href="#input" role="tab"
+                    aria-controls="home" aria-selected="true">Paste a single SMILES string</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="drawing-tab" data-toggle="tab" href="#drawing" role="tab"
+                    aria-controls="profile" aria-selected="false">Draw a molecule using JMSE editor</a>
+            </li>
+        </ul>
+
+        <div class="tab-content mb-4" id="myTabContent">
+            <div class="tab-pane fade show active" id="input" role="tabpanel" aria-labelledby="home-tab">
+                <form action="/service/evaluation/cal" method="post" id="form1"
+                    class="border p-3 border-top-0 mb-3">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="4CtHrxoRyt0Atn1bmeWqH6TwBrJK7oeXeKUv1fxDwwA6qnvmeNHdQYxBBcgkdA19">
+
+                    
+
+                    <div class="form-group row align-items-center pl-4">
+                        <label for="smiles"
+                            class="col-lg-2 col-md-2 col-xl-2 col-sm-12 col-xs-12 col-form-label text-right">SMILES
+                        </label>
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                            <input type="text" class="form-control" id="smiles" dataType="Require"
+                                msg="This field is required!" name="smiles"
+                                value="">
+                            <div class="invalid-feedback">
+                                Please input SMILES.
+                            </div>
+                            <input type="hidden" id="method" value="1" name="method">
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                            <button type="button" class="btn btn-primary align-middle"
+                                onclick="$('#smiles').val('CC(C)OC(=O)CC(=O)CSC1=C(C=C2CCCC2=N1)C#N')">
+                                Example
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="row buttons text-center">
+                        <div class="col-6">
+                            <button class="btn btn-danger" type="button" aria-label="Reset" value="Reset"
+                                onclick="resetForm1()">Reset
+                            </button>
+                        </div>
+                        <div class="col-6">
+                            <button class="btn btn-success" type="button" aria-label="Submit" value="Submit"
+                                id="submit-btn-1" onclick="submit1()">Submit
+                            </button>
+                        </div>
+                    </div>
+
+                </form>
+                <div class="span12" id="progress-container" style="margin-top: 3px;">
+                    <div style="text-align: center" id="progressbar1"></div>
+                    <div style="text-align: center" id="progress_wait1"></div>
+                </div>
+                <div class="card border-info text-left ml-auto mr-auto mb-3" style="width: 50rem">
+                    <div class="card-header">
+                        <span class="fas fa-info mr-2"></span>
+                        Tip
+                    </div>
+                    <div class="card-body text-info">
+                        <ul class="mb-0">
+                            <li>
+                                <b>Before submitting</b>, users should prepare a valid SMILES in case of errors.
+                            </li>
+                            <li>
+                                Molecules composed of more than <span class="text-danger">128 atoms</span> are not
+                                recommended for evaluation.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="drawing" role="tabpanel" aria-labelledby="profile-tab">
+                <form action="/service/evaluation/cal" method="post" id="form2"
+                    class="border p-3 border-top-0 text-center">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="4CtHrxoRyt0Atn1bmeWqH6TwBrJK7oeXeKUv1fxDwwA6qnvmeNHdQYxBBcgkdA19">
+
+                    
+
+                    <div id="jsme_container" style="text-align: center" class="pt-2"></div>
+
+                    <input type="hidden" id="mol_input" name="mol" value="">
+                    <input type="hidden" id="method" value="2" name="method">
+
+                    <div class="span12" id="progress-container" style="margin-top: 3px;">
+                        <div style="text-align: center" id="progressbar2"></div>
+                        <div style="text-align: center" id="progress_wait2"></div>
+                    </div>
+
+                    <button class="btn btn-success" type="button" aria-label="Submit" value="Submit" id="submit-btn-2"
+                        onclick="submit2()">Submit
+                    </button>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="loading-btn" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content border-0" style="background: none;">
+            <div class="modal-body text-center" style="background: none;">
+                <div class="load">
+                    <hr />
+                    <hr />
+                    <hr />
+                    <hr />
+                </div>
+                <h2 style="color: white">Please Wait...</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    function jsmeOnLoad() {
+        jsmeApplet = new JSApplet.JSME("jsme_container", "380px", "340px", {
+            "text-align": "center",
+        });
+    }
+
+    function submit1() {
+        Validator.Validate(document.getElementById('form1'), 3, 1);
+    }
+
+    function submit2() {
+        var molFile = jsmeApplet.molFile();
+        $('#mol_input').attr('value', molFile);
+        Validator.Validate(document.getElementById('form2'), 3, 2);
+    }
+
+    function progress(b, s, method) {
+        var opts = {
+            lines: 15, // The number of lines to draw
+            length: 0, // The length of each line
+            width: 8, // The line thickness
+            radius: 17, // The radius of the inner circle
+            corners: 1, // Corner roundness (0..1)
+            rotate: 38, // The rotation offset
+            direction: 1, // 1: clockwise, -1: counterclockwise
+            color: '#000', // #rgb or #rrggbb or array of colors
+            speed: 1.5, // Rounds per second
+            trail: 37, // Afterglow percentage
+            shadow: false, // Whether to render a shadow
+            hwaccel: false, // Whether to use hardware acceleration
+            className: 'spinner', // The CSS class to assign to the spinner
+            zIndex: 2e9, // The z-index (defaults to 2000000000)
+            top: 'auto', // Top position relative to parent in px
+            left: 'auto' // Left position relative to parent in px
+        };
+        document.getElementById(s).submit();
+
+        $('#loading-btn').modal({
+            backdrop: 'static',
+            keyboard: false,
+            show: true,
+        });
+    }
+
+    function resetForm1() {
+        $(":input", "#form1")
+            .not(":button", ":reset", "hidden", "submit")
+            .val("")
+            .removeAttr("checked")
+            .removeAttr("selected");
+    }
+
+</script>
+
+    </div>
+
+    <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+    </svg>
+</div>
+
+
+    
+        <!-- Site footer -->
+
+
+<link rel="stylesheet" href="/static/form/css/xui.css" />
+
+<footer class="site-footer">
+  <div class="container" id="footer-container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 d-flex flex-column">
+        <h6>About</h6>
+        <p class="text-justify">
+          This website provides easy access to comprehensive, accurate and efficient prediction of ADMET profiles for chemicals. The prediction is founded on a high-quality database of 0.25M entries spanning 53 endpoints and multi-task graph attention framework.
+          <br />
+          The webtool is described in detail here: <span style="color: #D8DBE2;">ADMETlab 2.0: an integrated online platform for accurate and comprehensive predictions of ADMET properties. Nucleic Acids Res, 2021, 49(W1):W5-W14.</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/33893803/" style="color: #D8DBE2;">PMID:33893803</a>
+        </p>
+
+        <p class="copyright-text mt-auto">Xiangya School of Pharmaceutical Sciences, Central South University. All rights reserved.</p>
+      </div>
+
+      <div class="col-xs-6 col-md-3 d-flex flex-column">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          
+          <li>
+            <a href="/contact/">Contact Us</a>
+          </li>
+          <li>
+            <a href="http://www.scbdd.com/" target="_blank">CBDD Group</a>
+          </li>
+        </ul>
+        
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=5IwMrI-JIC2wpHsWSz97ZfzdOxJBISY-mRJ__eb57Lw&cl=ffffff&w=a"></script>
+      </div>
+      <div class="col-xs-6 col-md-3 d-flex flex-column">
+        <h6>Dev Tool</h6>
+        <table class="xtable xnobor-all">
+          <tr>
+            <td>
+              <a href="https://www.python.org/" target="_blank"><img src="/static/footer/img/python-logo.png" alt="" /></a>
+            </td>
+            <td>
+              <a href="https://www.rdkit.org/" target="_blank"><img src="/static/footer/img/rdkit-logo.png" alt="" /></a>
+            </td>
+            <td>
+              <a href="https://www.djangoproject.com/" target="_blank"><img src="/static/footer/img/django-logo.png" alt="" /></a>
+            </td>
+            <td>
+              <a href="https://pytorch.org/" target="_blank"><img src="/static/footer/img/pytorch-logo.png" alt="" /></a>
+            </td>
+          </tr>
+        </table>
+        <div class="mt-auto text-right">
+          <p class="copyright-text">
+            E-mail:<font color="white">oriental-cds@163.com</font>
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+  <div class="container" id="footer-container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="text-right">
+          <p class="copyright-text">
+            Copyright &copy; 2020 All Rights Reserved by
+            <a href="http://www.scbdd.com/" style="color: #ffffff;">Computational Biology & Drug Design Group</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+</div>
+
+</body>
+
+
+
+
+
+</html>

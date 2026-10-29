@@ -1,0 +1,16 @@
+system	target	ligand	rep	dtotal_kcal_mol	mindist_last10pct_nm	rmsd_ligand_last10pct_nm	residence
+S1_IKKb_Coptisine	IKKb	Coptisine	1	-21.58	0.212	0.735	bound
+S1_IKKb_Coptisine	IKKb	Coptisine	2	-23.89	0.216	0.666	bound
+S1_IKKb_Coptisine	IKKb	Coptisine	3	-27.82	0.209	0.471	bound
+S2_ACHE_Coptisine	ACHE	Coptisine	1	0.00	4.480	9.728	dissociated
+S2_ACHE_Coptisine	ACHE	Coptisine	2	-0.00	0.564	15.387	dissociated
+S2_ACHE_Coptisine	ACHE	Coptisine	3	-0.00	2.699	9.281	dissociated
+S3_ACHE_OroxylinA	ACHE	OroxylinA	1	-0.00	0.040	3.004	bound
+S3_ACHE_OroxylinA	ACHE	OroxylinA	2	-0.00	2.658	18.570	dissociated
+S3_ACHE_OroxylinA	ACHE	OroxylinA	3	-0.00	0.777	13.190	dissociated
+S4_PTGS2_Apigenin	PTGS2	Apigenin	1	-28.08	0.197	0.646	bound
+S4_PTGS2_Apigenin	PTGS2	Apigenin	2	-31.85	0.206	0.585	bound
+S4_PTGS2_Apigenin	PTGS2	Apigenin	3	-26.77	0.211	0.523	bound
+S5_MD2_Stigmasterol	MD2	Stigmasterol	1	-52.50	NA	NA	NA
+S5_MD2_Stigmasterol	MD2	Stigmasterol	2	-49.82	NA	NA	NA
+S5_MD2_Stigmasterol	MD2	Stigmasterol	3	-49.08	0.207	0.283	bound

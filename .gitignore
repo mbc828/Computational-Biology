@@ -1,4 +1,11 @@
-# Large/private computational objects
+# Local-only manuscripts, audit records and source material
+01_manuscript/
+03_code/full_snapshot/
+05_documentation/
+06_source_material/
+07_audit/
+
+# Large/raw computational objects
 *.xtc
 *.trr
 *.dcd
@@ -7,6 +14,8 @@
 *.hdf5
 *.fastq
 *.fq
+*.fastq.gz
+*.fq.gz
 *.bam
 *.bai
 *.tpr
@@ -15,5 +24,7 @@
 *.gro
 *.pdbqt
 *.part
-outputs/
+*.zip
+__pycache__/
 .workbuddy/
+.DS_Store

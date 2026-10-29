@@ -1,0 +1,525 @@
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <link rel="shortcut icon" href="/static/favicon.ico"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>ADMETlab 3.0</title>
+    <link rel="stylesheet" type="text/css" href="/static/home/css/style.css"/>
+    <script src="/static/common/js/jquery.min.js"></script>
+
+    
+    
+        <link rel="stylesheet" type="text/css" href="/static/common/nav/css/style.css"/>
+        <script src="/static/common/nav/js/style.js"></script>
+    
+
+    <link href="/static/common/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="/static/common/js/bootstrap.bundle.min.js"></script>
+
+    
+    <link rel="stylesheet" href="/static/common/footer/css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/static/common/banner/css/style.css"/>
+
+    
+    <link href="/static/common/fontawesome/css/all.min.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+<div class="antin-container">
+    
+        
+<header class="header-area overlay">
+    <nav class="navbar navbar-expand-md navbar-dark" data-bs-theme="dark">
+        <div class="container">
+            <a href="/" class="navbar-brand d-flex justify-content-center align-items-center">
+                <img src="/static/favicon.ico" width="45" height="45"
+                     class="d-inline-block justify-content-center align-items-center mr-2" alt=""/>
+                <span class="">ADMETlab 3.0</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="main-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            <i class="fas fa-atom"></i> Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/server/evaluation">ADMET Evaluation</a></li>
+                            <li><a class="dropdown-item" href="/server/screening">ADMET Screening</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/apis/"><i class="fas fa-robot"></i> API Tutorial</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            <i class="fas fa-hands-helping"></i> Help
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="/explanation/">Endpoints Explanation</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/documentation/">Documentation</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/diversity/">Diversity & Distribution</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/publication/"><i class="fas fa-copy"></i> Publication</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact/"><i class="fas fa-id-card"></i> Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+    
+
+    
+        
+
+<style>
+    .pre-link {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .pre-link:hover {
+        color: orange;
+    }
+</style>
+
+<div class="jumbotron jumbotron-fluid pt-0 pb-2 mb-3" style="background-color: #486ba3">
+    <div class="container-fluid" style="width: 86%" id="banner-container-fluid">
+        <div class="row d-flex justify-content-around align-items-center" style="height: 100%">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12" id="container-left">
+                <img src="/static/home/img/homepage.png" alt="" class="img-fluid" style="width: 86%"/>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pl-4 pr-4" id="container-right"
+                 style="color: #fff; font-weight: 700; font-size: 1.25rem">
+                <h1 class="fw-bolder text-center" style="font-size: 56px">ADMETlab 3.0</h1>
+                <p class="lead" style="text-align: justify; font-weight: 350; line-height: 2rem">
+                    Undesirable pharmacokinetics and toxicity are major contributors to drug development failures. It is
+                    widely recognized that evaluating the absorption, distribution, metabolism, excretion, and toxicity
+                    (ADMET) of chemicals early on is crucial. To evaluate the ADMET comprehensively and accurately and
+                    physicochemical properties of molecules, alongside their pharmaceutical chemical friendliness, the
+                    ADMETlab platform undergoes continuous upgrades from <a href="https://admet.scbdd.com/"
+                                                                            class="pre-link">ADMETlab 1.0</a> to
+                    <a href="https://admetmesh.scbdd.com/" class="pre-link">ADMETlab 2.0</a> and now to the
+                    current ADMETlab 3.0. With enhancements in ADMET training data, the utilization of more robust model
+                    frameworks, the integration of specific API functionalities, and the provision of uncertainty
+                    assessments, ADMETlab 3.0 has significantly expanded its capabilities, aiding medicinal chemists in
+                    accelerating the drug development process.
+                </p>
+                <div class="text-center">
+                    <a href="/documentation/" class="button button-primary learn-more mb-2"
+                       style="text-decoration: none">Learn
+                        More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        let container = $('#banner-container-fluid');
+        let screen_height = $(window).height() - 72;
+        let left = $('#container-left').outerHeight();
+        let right = $('#container-right').outerHeight();
+        if ($(window).outerWidth() < 992) {
+            if (left + right > screen_height) {
+                container.css('height', left + right);
+            } else {
+                container.css('height', screen_height);
+            }
+        } else {
+            if (left > screen_height || right > screen_height) {
+                if (left > right) {
+                    container.css('height', left);
+                } else {
+                    container.css('height', right);
+                }
+            } else {
+                container.css('height', screen_height);
+            }
+        }
+    });
+
+    $(window).resize(function () {
+        let container = $('#banner-container-fluid');
+        let screen_height = $(window).height() - 72;
+        let left = $('#container-left').outerHeight();
+        let right = $('#container-right').outerHeight();
+        if ($(window).outerWidth() < 992) {
+            if (left + right > screen_height) {
+                container.css('height', left + right);
+            } else {
+                container.css('height', screen_height);
+            }
+        } else {
+            if (left > screen_height || right > screen_height) {
+                if (left > right) {
+                    container.css('height', left);
+                } else {
+                    container.css('height', right);
+                }
+            } else {
+                container.css('height', screen_height);
+            }
+        }
+    });
+</script>
+    
+
+    <div class="antin-contain">
+        
+    <link href="/static/home/css/style.css" rel="stylesheet">
+    <style>
+        #content .container {
+            text-align: justify;
+            text-justify: inter-ideograph;
+        }
+
+        #content .container h3 {
+            text-align: center;
+            text-align-last: center;
+            text-justify: inter-ideograph;
+        }
+
+        #content .container button {
+            font-size: 1rem;
+            text-decoration: none;
+        }
+
+        .service-block {
+            font-size: 1.1rem;
+        }
+
+        .scroll-block {
+            margin-bottom: 100px;
+        }
+
+        .version {
+            margin: 2rem;
+            font-weight: 500;
+            font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+            font-size: 1.2rem;
+        }
+    </style>
+    <main>
+        <section id="content" class="content pb-3 pt-4 mt-5">
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col-md-6 d-flex flex-column">
+                        <h3 class="mb-4">ADMET Evaluation</h3>
+                        <p class="service-block">
+                            The ADMET Evaluation function module comprises a series of high-quality prediction models
+                            trained by the Directed Message Passing Neural Network (DMPNN) framework. It enables users
+                            to
+                            conveniently and efficiently conduct calculations and predictions for 21 physicochemical
+                            properties, 19 medicinal chemistry properties, 34 ADME endpoints, 36 toxicity endpoints, and
+                            8
+                            toxicophore rules (751 substructures).
+                        </p>
+                        <a href="/server/evaluation" class="d-block mt-auto">
+                            <button type="button" class="btn btn-primary float-end btn-lg">GET STARTED</button>
+                        </a>
+                    </div>
+                    <div class="col-md-6 d-flex flex-column">
+                        <h3 class="mb-4">ADMET Screening</h3>
+                        <p class="service-block">
+                            ADMET Screening is the batch mode of evaluation, designed for the prediction of molecular
+                            datasets. SMILES strings and SDF/TXT/CSV formatted files are supported molecular submission
+                            approaches. This module is suitable for the evaluation of empirically designed or visually
+                            screened molecules before chemical synthesis and biochemical assays, which enabling
+                            scientists
+                            to better focus their experiments on the most promising compounds.
+                        </p>
+                        <a href="/server/screening" class="d-block mt-auto">
+                            <button type="button" class="btn btn-primary float-end btn-lg">GET STARTED</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="container highlight-area default-padding mt-5 mb-5">
+        <div class="highlight-title text-center mb-5">
+            <h1 class="title mb-5 mt-5">NEW DEVELOPMENTS</h1>
+        </div>
+
+        <div class="container">
+            <div class="row mt-5 gx-5">
+                <div class="col-md-8">
+                    <div class="media-body mt-60">
+                        <h5 class="mt-0">
+                            <svg t="1701221381011" class="icon" viewBox="0 0 1203 1024" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg" p-id="2989" width="36" height="36">
+                                <path
+                                        d="M800.0256 393.4208C628.7872 131.7888 405.12-28.8256 289.28 44.2112c-116.4032 73.3952-60.416 340.4032 110.976 602.2912 171.264 261.632 394.9312 422.272 510.7712 349.2352 116.3776-73.3952 60.416-340.4288-111.0016-602.3168z m-356.9408 225.0496C286.208 378.7776 235.8272 138.4192 316.5696 87.552c81.3056-51.2768 283.5712 93.9776 440.6272 333.9264 156.8768 239.6928 207.2576 480.0512 126.5152 530.944-81.28 51.2768-283.5712-93.952-440.6272-333.9264z"
+                                        fill="#666666" p-id="2990"></path>
+                                <path
+                                        d="M800.0256 646.528c171.4176-261.888 227.3792-528.9216 111.0016-602.3168C795.1872-28.8256 571.4944 131.7888 400.256 393.4208 228.8384 655.3088 172.8768 922.368 289.28 995.7376c115.84 73.0368 339.5072-87.5776 510.7456-349.2096z m-42.8288-28.0576c-157.056 239.9744-359.3216 385.2032-440.6272 333.952-80.7424-50.9184-30.3616-291.2512 126.5152-530.944C600.1408 181.504 802.432 36.2752 883.712 87.5264c80.7424 50.8928 30.3616 291.2512-126.5152 530.944z"
+                                        fill="#666666" p-id="2991"></path>
+                                <path
+                                        d="M608.9472 766.976c323.2512 0 586.752-98.4576 586.752-235.264 0-136.7552-263.5008-235.2128-586.752-235.2128-323.2256 0-586.752 98.4576-586.752 235.2384s263.5264 235.2384 586.752 235.2384z m0-51.2c-296.576 0-535.552-89.2672-535.552-184.064 0-94.72 238.976-184.0128 535.552-184.0128 296.6016 0 535.552 89.2672 535.552 184.0384s-238.9504 184.0384-535.552 184.0384z"
+                                        fill="#666666" p-id="2992"></path>
+                                <path
+                                        d="M376.9088 81.3824a75.2128 73.8304 0 1 0 150.4256 0 75.2128 73.8304 0 1 0-150.4256 0Z"
+                                        fill="#19619F" p-id="2993"></path>
+                                <path
+                                        d="M998.6304 412.8768a75.2128 73.8304 0 1 0 150.4256 0 75.2128 73.8304 0 1 0-150.4256 0Z"
+                                        fill="#19619F" p-id="2994"></path>
+                                <path
+                                        d="M412.7232 930.176a75.2128 73.8304 0 1 0 150.4256 0 75.2128 73.8304 0 1 0-150.4256 0Z"
+                                        fill="#004395" p-id="2995"></path>
+                                <path
+                                        d="M412.7232 930.176a75.2128 73.8304 0 1 0 150.4256 0 75.2128 73.8304 0 1 0-150.4256 0Z"
+                                        fill="#19619F" p-id="2996"></path>
+                                <path
+                                        d="M618.8288 645.0176c63.36 0 114.9184-50.5856 114.9184-113.2544 0-62.6688-51.5584-113.28-114.944-113.28-63.3344 0-114.8928 50.6112-114.8928 113.28 0 62.6688 51.5584 113.2544 114.9184 113.2544z m0-51.2c-35.328 0-63.744-27.904-63.744-62.0544 0-34.176 28.416-62.08 63.744-62.08 35.3024 0 63.7184 27.904 63.7184 62.08 0 34.176-28.416 62.0544-63.744 62.0544z"
+                                        fill="#19619F" p-id="2997"></path>
+                            </svg>
+                            Comprehensive coverage of ADMET endpoint data
+                        </h5>
+                        <p class="disc-text">
+                            ADMETlab 3.0 is more comprehensive and capable. In this version, the number of
+                            predictable endpoints has increased from <strong>88 to 119</strong>, an addition of
+                            <strong>30</strong> compared
+                            to the previous
+                            version. The training model's dataset is <strong>1.5</strong> times larger than the previous
+                            version.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-right">
+                    <img src="/static/home/img/feature_1.svg" alt="" style="max-width: 380px;">
+                </div>
+            </div>
+            <div class="row mt-5 gx-5">
+                <div class="col-md-8">
+                    <div class="media-body mt-20">
+                        <h5 class="mt-0">
+                            <svg t="1701221452742" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg" p-id="5089" width="36" height="36">
+                                <path d="M512.04 94.87v416.18l351.9 202.31-7.49-419.65L512.04 94.87z" fill="#279ACC"
+                                      p-id="5090"></path>
+                                <path
+                                        d="M512 940.58a31.9 31.9 0 0 1-31.9-31.89V529.47L151.68 339.78a31.9 31.9 0 1 1 31.89-55.25L512 474.22l328.5-189.69 31.9 55.25-328.47 189.69v379.22A31.89 31.89 0 0 1 512 940.58z"
+                                        fill="#303030" p-id="5091"></path>
+                                <path
+                                        d="M513.43 952.56L131 731.78V290.22L513.43 69.44l382.41 220.78v441.56zM194.83 695l318.6 183.94L832 695V327.05L513.43 143.11l-318.6 183.94z"
+                                        fill="#303030" p-id="5092"></path>
+                                <path
+                                        d="M163 745.26a31.9 31.9 0 0 1-16-59.5l349-202.31a31.9 31.9 0 1 1 32 55.2L178.93 741a31.75 31.75 0 0 1-15.93 4.26z"
+                                        fill="#303030" p-id="5093"></path>
+                            </svg>
+                            Robust and accurate multi-task DMPNN models
+                        </h5>
+                        <p class="disc-text">
+                            ADMETlab 3.0 utilizes the <span class="font-weight-bold">DMPNN</span> framework, enabling
+                            message passing by fusing vectors of
+                            neighboring bonds in the molecular graph to enhance message aggregation and updating.
+                            Simultaneously, the integration of molecular graph vectors with molecular descriptors
+                            significantly improves the model's performance and robustness.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-right">
+                    <img src="/static/home/img/feature_3.svg" alt="" style="max-width: 380px;">
+                </div>
+            </div>
+            <div class="row mt-5 gx-5">
+                <div class="col-md-8">
+                    <div class="media-body mt-20">
+                        <h5 class="mt-0">
+                            <svg t="1701221823427" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg" p-id="8110"
+                                 data-spm-anchor-id="a313x.search_index.0.i5.f3193a81kYVunL" width="36" height="36">
+                                <path
+                                        d="M469.1 181.4l-1.7 1.7c-148.8 19.1-267 137.5-286.6 287.3l-1.7 1.7-38.6 5.7v73l38.4 4.8 1.7 1.7c19.2 151.4 138.9 271 289.4 289.1l1.7 1.7 5.7 39.1h72.5l4.9-40 1.7-1.7c147.8-21 264.1-140.1 282.4-289.6l1.7-1.7 43.2-6.4v-73l-43.9-5.5-1.7-1.7c-20.6-147.5-136.7-264-283.2-284.2l-1.7-1.7-6.3-43.4h-72.5l-5.4 43.1zM145.8 436C176.7 291.4 289 178.6 432.5 147.9l2-16.1c2.4-19.4 18.7-33.9 38.1-33.9h75.9c19.1 0 35.2 14.1 38 33l2.5 17.5c141.3 31.2 251.9 142 283.7 284.1l17.7 2.2c19.2 2.4 33.7 18.9 33.7 38.4v76.5c0 19.2-14 35.5-32.8 38.3l-17.2 2.5c-29.6 144.2-140.2 257.6-282.8 290l-1.7 13.6c-2.4 19.4-18.7 33.9-38.1 33.9h-75.9c-19 0-35.2-14.1-38-33l-1.9-12.7C290.6 852.8 176 738.4 145.5 592.5l-11.8-1.5c-19.2-2.4-33.7-18.9-33.7-38.4v-76.5c0-19.2 14-35.5 32.8-38.3l13-1.8z m0 0"
+                                        fill="#707070" p-id="8111"
+                                        data-spm-anchor-id="a313x.search_index.0.i6.f3193a81kYVunL"
+                                        class=""></path>
+                                <path
+                                        d="M512.1 790.2c-84.3 0-163.1-38.8-215-105.4-37.9-48.5-58.4-108.4-58.3-170 0-51.6 14.2-101.5 40.9-145 49.8-81.1 137.8-130.4 232.4-130.4 94.8 0 182 49.1 232 129.7 27.1 43.7 41.4 94.2 41.3 145.7 0 62.2-20.6 121.8-58.6 170.4-51.7 66.4-130.9 105.1-214.7 105z m0-39.3c72.2 0 139.6-33.1 184.1-90 32.6-41.6 50.3-93 50.2-146 0-44.5-12.2-87.5-35.4-124.8-42.8-69.2-118-111.2-198.9-111.2-81.2 0-156.6 42.2-199.2 111.8-23 37.3-35.1 80.3-35 124.3 0 53.2 17.5 104.2 50 145.7 44.2 56.9 112.2 90.3 184.2 90.2z m0 0"
+                                        fill="#707070" p-id="8112"
+                                        data-spm-anchor-id="a313x.search_index.0.i4.f3193a81kYVunL"
+                                        class=""></path>
+                                <path
+                                        d="M473.5 592.2h-34.2l-11.1-34h-53.6l-10.9 34h-34.1l54-148.5h36.9l53 148.5z m-52.7-58.5L404 482.3c-1.3-4.2-2-8.6-2.3-12.9h-0.9c-0.4 4.3-1.2 8.5-2.6 12.6l-16.9 51.9h39.5z m102.7 6.8v51.8h-31.4V443.7h50.7c36.7 0 55 15.6 55 47 0 15.2-5.5 27.4-16.6 36.6-11.1 9.2-24.9 13.6-41.6 13.2h-16.1z m0-72.2v47.9h13.6c18.5 0 27.7-8.1 27.7-24.3 0-15.8-9.1-23.7-27.4-23.7l-13.9 0.1z m150.4 0.1h-12.7v99.2h12.7v24.6h-56.5v-24.6h12.5v-99.2h-12.5v-24.6h56.5v24.6z m0 0"
+                                        fill="#439AC9" p-id="8113"
+                                        data-spm-anchor-id="a313x.search_index.0.i8.f3193a81kYVunL"
+                                        class="selected"></path>
+                            </svg>
+                            API integration and architecture upgrades
+                        </h5>
+                        <p class="disc-text">
+                            The introduction of an API interface caters to the growing demand for programmatic access to
+                            extensive data within ADMETlab 3.0. This API is designed for flexibility, enabling
+                            developers to
+                            leverage its functionality for broader applications or integrations. The existing website
+                            system
+                            architecture has undergone upgrades to enhance the user experience.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-right">
+                    <img src="/static/home/img/feature_2.svg" alt="" style="max-width: 380px;">
+                </div>
+            </div>
+            <div class="row mt-5 gx-5">
+                <div class="col-md-8">
+                    <div class="media-body mt-20">
+                        <h5 class="mt-0">
+                            <svg t="1701221769172" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg" p-id="4549" width="36" height="36">
+                                <path
+                                        d="M104.88 852.13a43.114 43.114 0 0 0 0 43.11 43.096 43.096 0 0 0 37.33 21.55H889.05c23.81 0 43.11-19.3 43.11-43.11 0-9.15-2.85-17.64-7.72-24.62L805.62 643.25H225.47L104.88 852.13z"
+                                        fill="#9CD5E4" p-id="4550"></path>
+                                <path
+                                        d="M885.39 949.56H138.55c-26.48 0-51.15-14.25-64.4-37.19-13.25-22.92-13.25-51.42 0-74.36l286.51-496.24V68.87h302.63v273.2l284 491.88c8.17 12.25 12.48 26.47 12.48 41.24-0.02 41.01-33.37 74.37-74.38 74.37zM423.16 131.38v227.14L128.28 869.26a11.864 11.864 0 0 0 0 11.84c2.11 3.67 6.04 5.95 10.27 5.95h746.67c6.7 0 12.03-5.32 12.03-11.85 0-2.48-0.71-4.76-2.11-6.78l-1.42-2.22-292.95-507.38V131.38H423.16z"
+                                        fill="#233649" p-id="4551"></path>
+                                <path
+                                        d="M286.33 68.87h458.6v62.51h-458.6zM223.99 609.73h572.73v62.51H223.99zM550.08 178.6h56.26v50.01h-56.26zM550.08 261.48h56.26v50.01h-56.26z"
+                                        fill="#233649" p-id="4552"></path>
+                            </svg>
+                            Incorporation of uncertainty evaluation
+                        </h5>
+                        <p class="disc-text">
+                            Providing uncertainty estimates for predictive results is essential to assess the accuracy
+                            of the
+                            prediction. It reflects the model's confidence in the prediction. Higher uncertainty may
+                            indicate that the model's prediction for the molecule is less reliable, while lower
+                            uncertainty
+                            implies greater confidence in the prediction.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-right">
+                    <img src="/static/home/img/feature_4.png" alt="" style="max-width: 380px;">
+
+                </div>
+            </div>
+        </div>
+        <div class="container text-center" style="margin-top: 60px">
+            <div class="version">
+                Current Release: ADMETlab 3.0 | Last update: 2024-01-31 <a
+                    href="https://github.com/antwiser/ADMETlab-3.0/blob/main/LICENSE">LICENSE</a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    
+        
+
+<footer class="site-footer">
+  <div class="container" id="footer-container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 d-flex flex-column">
+        <h6>About</h6>
+        <p class="text-justify">This website provides easy access to comprehensive, accurate and efficient prediction of ADMET profiles for chemicals. The prediction is founded on a high-quality database of 0.37M entries spanning 77 endpoints and Directed Message Passing Neural Network (DMPNN) framework.</p>
+        <p class="copyright-text mt-auto">Xiangya School of Pharmaceutical Sciences, Central South University. All rights reserved.</p>
+      </div>
+
+      <div class="col-xs-6 col-md-3 d-flex flex-column">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li>
+            <a href="/contact/">Contact Us</a>
+          </li>
+          <li>
+            <a href="http://www.scbdd.com/" target="_blank">CBDD Group</a>
+          </li>
+          
+          <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=A_YIJMCXBdXiGB83ddaWL0L_dtaOyX8INg-24ZPYEjE&cl=ffffff&w=a"></script>
+        </ul>
+      </div>
+      <div class="col-xs-6 col-md-3 d-flex flex-column">
+        <h6>Dev Tool</h6>
+        <table class="xtable">
+          <tr>
+            <td>
+              <a href="https://www.python.org/" target="_blank"><img src="/static/common/footer/img/python-logo.png" alt="" /></a>
+            </td>
+            <td>
+              <a href="https://www.rdkit.org/" target="_blank"><img src="/static/common/footer/img/rdkit-logo.png" alt="" /></a>
+            </td>
+            <td>
+              <a href="https://www.djangoproject.com/" target="_blank"><img src="/static/common/footer/img/django-logo.png" alt="" /></a>
+            </td>
+            <td>
+              <a href="https://pytorch.org/" target="_blank"><img src="/static/common/footer/img/pytorch-logo.png" alt="" /></a>
+            </td>
+            <td>
+              <a href="https://www.rdkit.org/" target="_blank"><img src="/static/common/footer/img/djangoninja-logo.png" alt="" /></a>
+            </td>
+          </tr>
+          <tr>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </tr>
+        </table>
+        <div class="mt-3 text-end">
+          <p class="copyright-text">
+            E-mail:<font color="white">oriental-cds@163.com</font>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="footer-container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="text-end">
+          <p class="copyright-text">
+            Copyright &copy; 2020 All Rights Reserved by
+            <a href="http://www.scbdd.com/" style="color: #ffffff;text-decoration: none">Computational Biology & Drug Design Group</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+</div>
+</body>
+
+
+
+
+</html>

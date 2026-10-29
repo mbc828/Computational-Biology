@@ -1,0 +1,533 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/admetsar2/static/css/css1.css" rel="stylesheet" type="text/css" />
+<link href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://unpkg.com/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+<!-- <link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+<script src='/admetsar2/static/js/util.js' ></script>
+
+<title> admetSAR </title>
+<!-- <link href="https://unpkg.com/element-ui/lib/theme-chalk/index.css" rel="stylesheet">
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script src="https://unpkg.com/element-ui/lib/umd/locale/en.js"></script> -->
+<link href="https://cdn.bootcss.com/element-ui/2.4.0/theme-chalk/index.css" rel="stylesheet">
+<script src="https://cdn.bootcss.com/vue/2.5.16/vue.js"></script>
+<script src="https://cdn.bootcss.com/element-ui/2.4.0/index.js"></script>
+<script src="https://cdn.bootcss.com/element-ui/2.4.0/locale/en.js"></script>
+<style>
+.el-transfer-panel__header {padding-top:10px}
+.el-transfer{margin-left:80px}
+.el-transfer-panel{width:300px;}
+.el-transfer-panel__body{height:400px}
+.el-transfer-panel__list.is-filterable{height:354px}
+.el-table td {padding: 10px 0;}
+.neirong_right1 ul {font-size: 12px; margin:10px; padding: 0}
+.neirong_right1 li {list-style: disc outside; margin-left: 30px; padding:0; display:list-item}
+</style>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?77064d3e635202d58edcc73eac766eed";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+    <div class="bg">
+        <div class="show">
+            <div class="top">
+                <div class="logo">
+                    <a href="/admetsar2/"><img src="/admetsar2/static/images/predict/logo.png" alt=""></a>
+                    <a style="color:white; margin-left:20px" href="http://lmmd.ecust.edu.cn/admetsar1">Old version is still available</a>
+                </div>
+                <div class="top_nav">
+                    <ul>
+                        <li><a href="http://lmmd.ecust.edu.cn/admetsar3">Predict</a></li>
+                        <li>|</li>
+                        <li><a href="/admetsar2/admetopt2">Optimize</a></li>
+                        <li>|</li>
+                        <li><a href="http://lmmd.ecust.edu.cn/admetsar3/about.php">About</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            
+<div class="search">
+
+    <div class="title1">
+        <table width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+                <td align="left">
+                    <img src="/admetsar2/static/images/predict/1.png" alt=""></td>
+                <td>
+                    <span>Welcome to admetSAR</span>
+                    <p>A comprehensive source and free tool for evaluating chemical ADMET properties</p>
+	    <p>admetSAR is free for non-commercial use only. For any other use, please contact us </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="search_box">
+      <ul class='nav nav-tabs nav-justified' role="tablist">
+        <li role='presentation' class='active'><a href='#predict' aria-controls="predict" role="tab" data-toggle="tab">Predict</a></li>
+        <li role='presentation'><a href='#search' role="tab" aria-controls="search" data-toggle="tab">Search</a></li>
+        <li role='presentation'><a href='#advpredict' role="tab" aria-controls="advpredict" data-toggle="tab">Advanced Predict</a></li>
+      </ul>
+      <!-- Predict -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active search_btn2_border" id="predict">
+          <div class='input-group'>
+            <span class='input-group-btn'>
+              <button class='btn btn-primary' data-toggle='modal' data-target='#intedraw' aria-expanded='false' name='open_intedraw'>
+                Draw molecule </button>
+            </span>
+            <input type='text' class='form-control' name="smiles" placeholder='Please input the SMILES of the molecule to predict the ADMET properties'>
+            <span class='input-group-btn'>
+              <button class='btn btn-default' type='button' name='predict_compound'>Predict</button>
+            </span>
+          </div>
+          <div style='form-group;margin-top:20px' id='select_predict'>
+            <div class='radio-inline' target='basic_search'>
+              <label>
+                <input type='radio' name='optionsPredict' prop="admetsar2" checked>
+                Predict ADMET properties
+              </label>
+            </div>
+            <div class='radio-inline' target='similarity_search'>
+              <label>
+                <input type='radio'  name='optionsPredict' prop="admetsar1">
+                Use old version (admetSAR1)
+              </label>
+            </div>
+            <!-- <div class='radio-inline' target='similarity_search'>
+              <label>
+                <input type='radio'  name='optionsPredict' prop="sa">
+                Match structural alerts
+              </label>
+            </div> -->
+          </div>
+          <div style='display:none' class='alert alert-success' role='alert' id='predict_compound_feedback'></div>
+        </div>
+        <!-- Search -->
+        <div role="tabpanel" class="tab-pane fade search_btn2_border" id="search">
+          <div style='form-group margin-bottom:20px' id='select_search'>
+            <div class='radio-inline' target='basic_search'>
+              <label>
+                <input type='radio' name='optionsSearch' checked>
+                Basic Search
+              </label>
+            </div>
+            <div class='radio-inline' target='similarity_search'>
+              <label>
+                <input type='radio'  name='optionsSearch' id='OS_similarity'>
+                Similarity Search
+              </label>
+            </div>
+          </div>
+          <div class='search_form' id='basic_search'>
+            <div class="row">
+              <div class='col-xs-3'>
+                <select id='select_search_option' class="form-control">
+                  <option value='cas_rn'>CAS Number</option>
+                  <option value='common_name'>Common Name</option>
+                  <option value='iupac_name'>IUPAC Name</option>
+                  <option value='smiles'>SMILES</option>
+                </select>
+              </div>
+              <div class='col-xs-8'>
+                <input type='text' class='form-control' name='basic_search' placeholder='e.g. benzene; 50-00-0'>
+              </div>
+              <button class='btn btn-default' type='button' name='basic_search'>Search</button>
+            </div>
+          </div>
+          <div class='search_form' id='similarity_search' style="display:none">
+            <div class='row'>
+              <div class='col-xs-3'>
+                <label> Similarity</label>
+                <select id='select_search_similarity'class="form-control">
+                  <option value='0.9'>&gt;0.9</option>
+                  <option value='0.8'>&gt;0.8</option>
+                  <option value='0.7'>&gt;0.7</option>
+                  <option value='0.6'>&gt;0.6</option>
+                  <option value='0.5'>&gt;0.5</option>
+                </select>
+              </div>
+              <div class='col-xs-8'>
+                <label> SMILES </label>
+                <input type='text' class='form-control' name='search_smiles' placeholder='Input the Smiles to search'>
+              </div>
+              <label>&nbsp;</label>
+              <button class='btn btn-default' type='button' name='similarity_search'>Search</button>
+            </div>
+          </div>
+        </div>
+        <!-- Advanced Preidict -->
+        <div role='tabpanel' class='tab-pane fade search_btn2_border' id='advpredict'>
+          <label>SMILES of the compounds</label>
+          <textarea class="form-control" rows="10" placeholder="At most 10 molecules" name='adv_smiles'></textarea>
+          <label> Select the endpoints to predict </label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="drug">
+              ADMET properties for drug discovery
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="eco" checked>
+              Predict for eco-toxicity
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios1" onclick="$('#select_endpoints').modal('toggle')" value="cust">
+              Custom endpoints
+            </label>
+          </div>
+          <button class='btn btn-default' type='button' name='adv_predict'>Predict</button>
+          <div style='display:none' class='alert alert-success' role='alert' id='adv_predict_feedback'></div>
+        </div>
+      </div>
+    </div>
+    <div class='modal fade', id='intedraw' tabindex='-1' role='dialog' aria-labelledby='intedrawLabel'>
+      <div class='modal-dialog modal-lg' role='document'>
+        <div class='modal-content'>
+          <div class='modal-header'>
+            <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span aria-hidden='true'>&times;</span></button>
+            <h4 class='model-title' id='intedrawLabel'>Draw molecule</h4>
+          </div>
+          <div class='modal-body'>
+            <iframe src='/admetsar2/static/lib/indraw_online/index.html' width="800" height="500"></iframe>
+          </div>
+          <div class='modal-footer'>
+            <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+            <button type='button' class='btn btn-primary' data-dismiss='modal' name='save_intedraw'>Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='modal fade', id='select_endpoints' tabindex='-1' role='dialog' aria-labelledby='selectEndpointLabel'>
+      <div class='modal-dialog modal-lg' role='document'>
+        <div class='modal-content'>
+          <div class='modal-header'>
+            <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span aria-hidden='true'>&times;</span></button>
+            <h4 class='model-title' id='selectEndpointLabel'>Select endpoints</h4>
+          </div>
+          <div class='modal-body'>
+            <div id='app' style='marigin:0px auto'>
+              <template>
+                <el-transfer
+                  filterable
+                  :filter-method="filterMethod"
+                  filter-placeholder='search for endpoint'
+                  :titles=['Available','Selected']
+                  @change='transfer_change'
+                  v-model="value2"
+                  :data="data2">
+                </el-transfer>
+              </template>
+            </div>
+          </div>
+          <div class='modal-footer'>
+            <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+            <button type='button' class='btn btn-primary' data-dismiss='modal' name='save_endpoint'>Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="neirong">
+
+    <div class="neirong_left">
+        <h1>Main features</h1>
+        <div class="line">
+            <img src="/admetsar2/static/images/predict/line1.png" alt="">
+        </div>
+        <img src="/admetsar2/static/images/predict/1.jpg" alt="" style="margin-top: 20px;">
+        <p> </p>
+        <span><b>A (Absorption)</b></span>
+        <ul>
+          <li>Human intestinal absorption (HIA) </li>
+          <li>Human oral bioavailability (HOB)  </li>
+          <li>Caco-2 permeability  </li>
+        </ul>
+        <span><b>D (Distribution)</b></span>
+        <ul>
+          <li>Plasma protein binding (PPB) </li>
+          <li>P-glycoprotein substrate, inhibitor</li>
+          <li>Blood-brain barrier penetration (BBB)</li>
+          <li>Blood-placenta barrier (BPB)</li>
+        </ul>
+        <span><b>M (Metabolism)</b></span>
+        <ul>
+          <li>Cytochrome P450 (CYP450) substrate, inhibitor
+            <ul>
+              <li>Substrate: CYP2C9, 2D6, 3A4</li>
+              <li>Inhibitor: CYP1A2, 2D6, 2C9, 2C19, 3A4 </li>
+            </ul>
+          </li>
+          <li>Pharmacokinatics transporters: BRCPi, BSEPi, OCT1i, OCT2i, MATE1i, OATP1b1i, OATP1b3i, OATP2b1i</li>
+        </ul>
+        <span><b>E (Excretion)</b></span>
+        <ul>
+          <li>Half time (t1/2)</li>
+          <li>Renal clearance</li>
+        </ul>
+        <span><b>T (Toxicity)</b></span>
+        <ul>
+          <li>Organ toxicity
+            <ul>
+              <li>Drug-induced liver injury</li>
+              <li>Human either-a-go-go-ralted gene (hERG) inhibition</li>
+              <li>Acute toxicity</li>
+              <li>Eye injury & Eye corrosion</li>
+            </ul>
+          </li>
+          <li>Genomic toxicity
+            <ul>
+              <li>Ames mutagenesis</li>
+              <li>Carcinogenesis</li>
+              <li>Micronucleus assay</li>
+            </ul>
+          </li>
+          <li>Eco-toxicity
+            <ul>
+              <li><i>Tetrahymena Pyriformis</i> toxicity</li>
+              <li>Phytoplankton toxicity</li>
+              <li>Honey bee toxicity</li>
+              <li>Avian toxicity</li>
+              <li>Biodegradation</li>
+            </ul>
+          </li>
+        </ul>
+
+
+       <input type="btn" onClick="window.open('/admetsar2/about/models')" value="Read More">
+    </div>
+
+    <div class="neirong_right">
+      <div class="neirong_right1">
+          <h1>What is admetSAR</h1>
+          <p>
+            admetSAR creates a user-friendly interface to search for ADME/T (Absorption, Distribution,
+            Metabolism, Excretion, and Toxicity) properties profiling by name,
+            CASRN and similarity search. admetSAR can predict about 50 ADMET endpoints with QSAR models.
+          </p>
+          <input type="btn" onClick="window.open('/admetsar2/about/')" value="Read More">
+      </div>
+      <p></p>
+      <div class="neirong_right1" style='padding-bottom: 10px'>
+          <h1>News and updates</h1>
+          <ul>
+            <li>
+                November 19, 2018, Corrected some mistakes and changed the cdn from bootcdn to unpkg.
+            </li>
+            <li>
+              August 28, 2018, The paper of admetSAR 2.0 was published by Bioinformatics.
+              <a href='https://doi.org/10.1093/bioinformatics/bty707'>⇓</a>
+            </li>
+            <li>
+               July 18, 2018, The admetSAR 2.0 was released.
+            </li>
+            <li>October 23, 2012, The paper of admetSAR was published by J. Chem. Inf. Model.
+            </li>
+          </ul>
+      </div>
+      <img src="/admetsar2/static/images/predict/2.jpg" alt="" style="margin-top: 20px; margin-bottom: 20px;">
+      <div class="neirong_right1">
+          <h1>Functions of admetSAR</h1>
+          <span><b>Prediction</b></span>
+          <p>admetSAR can help researchers, PK specialists to do as follows:</p>
+            <ul>
+              <li>Customizable ADMET Risk filters.</li>
+              <li>QSAR-based ADMET properties Prediction.</li>
+              <li>Predict toxicity for environmental chemicals.</li>
+              <li>Environmental Hazard Assessment.</li>
+            </ul>
+          <span><b>ADMETopt</b></span>
+          <p>ADMETopt can help researchers optimize drug leads according to the ADMET properties</p>
+          <input type="btn" onClick="window.open('/admetsar2/about/')" value="Cite Here">
+      </div>
+
+
+    </div>
+
+    <div class="clearfix"></div>
+</div>
+
+<script type="text/javascript">
+  var tf;
+  function check_result(tid){
+    function repeat(){
+      $.get('/admetsar2/result/?tid={0}&type=check'.format(tid),function(data){
+        if(data){
+          window.location.href='/admetsar2/result/?tid={0}'.format(tid)
+        }else{
+          setTimeout(repeat,5000)
+        }
+      })
+    }
+    setTimeout(repeat,2000)
+  }
+  $(function () {
+    // show the tab
+    $('.search_box a').click(function (e) {
+      e.preventDefault()
+      $(this).tab('show')
+    })
+    $('.radio-inline').click(function(e){
+      $('.search_form').hide()
+      $('#'+$(this).attr('target')).show()
+    })
+    $('input[name="basic_search"]').keydown(function(){
+      if(event.keyCode=="13")
+        $('button[name="basic_search"]').click()
+    })
+    $('input[name="search_smiles"]').keydown(function(){
+      if(event.keyCode=='13')
+        $('button[name="similarity_search"]').click()
+    })
+    $('button[name="basic_search"]').click(function(){
+      opt = $('#select_search_option').find('option:selected').val()
+      content = $('input[name="basic_search"]').val()
+      if (!content)
+        return false
+      url = 'http://lmmd.ecust.edu.cn/admetsar1/search/?{0}={1}&action=A'.format(opt,content)
+      window.location.href = url
+    })
+    $('button[name="similarity_search"]').click(function(){
+      smiles = $('input[name="search_smiles"]').val()
+      similarity = $('#select_search_similarity').find('option:selected').val()
+      if (!smiles)
+        return false
+      url = 'http://lmmd.ecust.edu.cn/admetsar1/search/?smiles2={0}&similarity={1}&action=B'.format(smiles,similarity)
+      window.location.href = url
+    })
+    $('button[name="save_intedraw"]').on('click',function(){
+      $('input[name="smiles"]').val(window.frames[0].indraw.getSMILES())
+    })
+    function postForPredict(feedback){
+      $.post('/admetsar2/result/',JSON.stringify({smis: smis, endpoints: endpoints}),function(data){
+        if(data.error){
+          feedback.text(data.error)
+          feedback.removeClass('alert-success')
+          feedback.addClass('alert-danger')
+          feedback.show()
+          return ;
+        }
+        var tid = data.result
+        temp = "Successfully submited the task. Your task id is {0}. Don't close the page and the results will show when the task is completed. </br>" +
+               "You can manually browse the result by the url: <a href=/admetsar2/result/?tid={0}>{1}/admetsar2/result/?tid={0}</a>."
+        temp = temp.format(tid,window.location.protocol + '//' + window.location.host)
+        feedback.html(temp)
+        feedback.addClass('alert-success')
+        feedback.removeClass('alert-danger')
+        feedback.show()
+        check_result(tid)
+      })
+    }
+    $('button[name=predict_compound]').click(function(){
+      smis = [$('input[name="smiles"]').val()]
+      endpoints = 'all'
+      prop = $('#select_predict input:checked').attr('prop')
+      if (prop=='admetsar1'){
+        url = 'http://lmmd.ecust.edu.cn/admetsar1/predict/?smiles={0}&action=A'.format(smis[0])
+        window.location.href = url
+      }else if(prop=='admetsar2'){
+        postForPredict($('#predict_compound_feedback'))
+      }
+    })
+    $('button[name=adv_predict]').click(function(){
+      smis = $('textarea[name="adv_smiles"]').val().split('\n')
+      if (smis.length > 20){
+        let feedback = $('#adv_predict_feedback')
+        let temp = "At most 20 compounds can be submited once."
+        feedback.text(temp)
+        feedback.addClass('alert-danger')
+        feedback.removeClass('alert-success')
+        feedback.show()
+        return false;
+      }
+      endpoints = $('input[name="optionsRadios"]:checked').val()
+      if(endpoints == 'cust'){
+        new_endpoints = []
+        for (var i in tf.value2){
+          new_endpoints.push(tf.data2[tf.value2[i]].abb)
+        }
+        endpoints = new_endpoints
+      }
+
+      postForPredict($('#adv_predict_feedback'))
+    })
+    ELEMENT.locale(ELEMENT.lang.en)
+    tf = new Vue({
+      el: '#app',
+      data: function(){
+        const generateData2 = _ =>{
+          const data=[];
+          const endpoints = ["Plasma protein binding", "Caco-2", "Blood Brain Barrier", "Human Intestinal Absorption", "CYP1A2 inhibition", "CYP2D6 inhibition", "CYP2C9 inhibition", "CYP2C19 inhibition", "CYP3A4 inhibition", "CYP2C8 inhibition", "CYP2D6 substrate", "CYP2C9 substrate", "CYP3A4 substrate", "Hepatotoxicity", "Reproductive toxicity", "Nephrotoxicity", "Respiratory toxicity", "skin sensitisation", "Mitochondrial toxicity", "P-glycoprotein substrate", "P-glycoprotein inhibitior", "BRCP inhibitior", "BSEP inhibitior", "OCT1 inhibitior", "OCT2 inhibitior", "MATE1 inhibitior", "OATP1B1 inhibitior", "OATP1B3 inhibitior", "OATP2B1 inhibitior", "Ames mutagenesis", "Acute Oral Toxicity", "Acute Oral Toxicity (c)", "Micronuclear", "Human Ether-a-go-go-Related Gene inhibition", "Eye irritation", "Eye corrosion", "Skin irritation", "Skin corrosion", "Fish aquatic toxicity", "Crustacea aquatic toxicity", "Biodegradation", "Avian toxicity", "Tetrahymena pyriformis", "Human oral bioavailability", "Water solubility", "Honey bee toxicity", "Carcinogenicity (binary)", "Carcinogenicity (trinary)", "Subcellular localzation", "Estrogen receptor binding", "PPAR gamma", "Thyroid receptor binding", "Glucocorticoid receptor binding", "Aromatase binding", "Androgen receptor binding", "UGT catelyzed", "CYP inhibitory promiscuity"];
+          const abb = ["ppb", "caco2", "bbb", "hia", "cyp1a2i", "cyp2d6i", "cyp2c9i", "cyp2c19i", "cyp3a4i", "cyp2c8i", "cyp2d6s", "cyp2c9s", "cyp3a4s", "hepa", "reproductive", "nep", "resp", "skin", "mit", "pgps", "pgpi", "bcrpi", "bsepi", "oct1i", "oct2i", "mate1i", "oatp1b1i", "oatp1b3i", "oatp2b1i", "ames", "oa", "ao", "mn", "herg", "ei", "ec", "si", "sc", "faq", "crust", "biod", "avian", "tpt", "hob", "ws", "hbt", "carc2", "carc3", "subc", "er", "pparg", "tr", "gr", "aro", "ar", "ugt", "cyppro"]
+          endpoints.forEach((endpoint,index)=>{
+            data.push({
+              label: endpoint,
+              key: index,
+              abb: abb[index]
+            })
+          })
+          return data
+        }
+        return {
+          data2:generateData2(),
+          value2:[],
+          filterMethod(query, item){
+            return item.abb.indexOf(query) > -1
+          }
+        }
+      },
+      methods: {
+        transfer_change(value,direction,movedKeys){
+          if(value.length>20){
+            this.$alert('At most 20 endpoints for a batch')
+            while(value.length>5){
+              value.pop()
+            }
+          }
+          return true
+        }
+      }
+    })
+
+  })
+</script>
+
+            <div class="banquan">
+                <table width="96%" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <div class="bottom_nav">
+                                <ul>
+                                    <li><a href="http://lmmd.ecust.edu.cn/admetsar3">Home</a></li>
+                                    <li>|</li>
+                                    <li><a href="http://lmmd.ecust.edu.cn/admetsar3/about.php">About Us</a></li>
+                                    <li>|</li>
+                                    <li><a href="http://lmmd.ecust.edu.cn/admetsar3/about.php">Contact</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td align="right">Copyright  @ 2019 admetSAR</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

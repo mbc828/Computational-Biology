@@ -1,0 +1,99 @@
+{
+ "lasso_all_genes": [
+  "EFNA2",
+  "NKX3-1",
+  "RPS10P7",
+  "S1PR2"
+ ],
+ "rf_all_top30": [
+  "EFNA2",
+  "RFPL1-AS1",
+  "NUBPL",
+  "PDK3",
+  "FKBP9L",
+  "VAX1",
+  "FZD5",
+  "SEMA3A",
+  "KHDRBS2",
+  "CLEC4GP1",
+  "PVR",
+  "NKX3-1",
+  "RAB2B",
+  "C10orf32",
+  "IBA57",
+  "CCBE1",
+  "S1PR2",
+  "GPM6A",
+  "MEIS1",
+  "FBXL20",
+  "LRAT",
+  "DMRTA2",
+  "ARSI",
+  "LDLRAD1",
+  "HMX3",
+  "LOC644189",
+  "LOC100505841",
+  "PLXDC1",
+  "LOC100129858",
+  "PAN3"
+ ],
+ "lasso_rf_overlap": [
+  "EFNA2",
+  "NKX3-1",
+  "S1PR2"
+ ],
+ "study_genes_rf_all": {
+  "TLR2": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "LY96": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "MYD88": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "IL1B": {
+   "rank": 168,
+   "importance": 0.0015645071635838445
+  },
+  "IL6": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "TNF": {
+   "rank": 754,
+   "importance": 0.00012360446570972887
+  },
+  "CASP1": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "NFKBIA": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "TLR4": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "NLRP3": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "GSDMD": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "IKBKB": {
+   "rank": 9953,
+   "importance": 0.0
+  },
+  "PYCARD": {
+   "rank": 9953,
+   "importance": 0.0
+  }
+ }
+}

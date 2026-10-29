@@ -1,0 +1,43 @@
+{
+  "version": "v25_new_computation_integrated",
+  "date": "2026-10-04",
+  "base": "SHXD_PJI_中文全稿_v24_IKKb结构残基补全.docx",
+  "changes": [
+    "added ML methods/results section",
+    "renumbered downstream sections",
+    "updated version/date",
+    "replaced embedded F6-F8 PNGs with RGB-normalized copies",
+    "updated data availability wording"
+  ],
+  "figures": {
+    "F6_MMGBSA_v25_RGB.png": {
+      "sha256": "7fefa624b8f32b0a1d833498cee604f12de3b59708f3b2348d9836f0e0e46be5",
+      "bytes": 408685,
+      "size_px": [
+        4251,
+        4133
+      ],
+      "mode": "RGB"
+    },
+    "F7_followup_drift_residues_v25_RGB.png": {
+      "sha256": "a7b939b309c6460cd66f1dcd7b8355cff3747be4726fc1fd3fbb6c1ea6a8276f",
+      "bytes": 933550,
+      "size_px": [
+        4251,
+        5669
+      ],
+      "mode": "RGB"
+    },
+    "F8_trajectory_coverage_RMSD_v25_RGB.png": {
+      "sha256": "969714d917b2fed1d35dac5939017a835f01ef6fff4026be71d90eb1345e5a7e",
+      "bytes": 785905,
+      "size_px": [
+        5196,
+        5196
+      ],
+      "mode": "RGB"
+    }
+  },
+  "docx_file": "SHXD_PJI_中文全稿_v25_新增计算整合版_已修订.docx",
+  "docx_sha256": "0cac66c1dbe5246c3f02672b9eec8ba5ad4cb32a97b11411f058c634ad82ce26"
+}

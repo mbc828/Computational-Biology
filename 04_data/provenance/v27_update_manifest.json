@@ -1,0 +1,21 @@
+{
+  "version": "v27_f6_layout_wb_body_framework",
+  "base": "SHXD_PJI_中文全稿_v26_新增突变扫描与WB预期框架.docx",
+  "docx_file": "SHXD_PJI_中文全稿_v27_F6布局与WB正文框架版.docx",
+  "changes": [
+    "embedded F6 replaced with third layout repair moving legend away from B title and left edge",
+    "added visible main-text WB expected-results subsection explicitly marked not performed",
+    "retained appendix WB parameters and pending mutant-MD placeholder"
+  ],
+  "figure": {
+    "file": "F6_MMGBSA_v27_left_clear_RGB.png",
+    "sha256": "14e2bc0c6a591754f7ef592d11825f35f2add5aefe048a8a0e9b1f5f384b2186",
+    "bytes": 380352,
+    "size_px": [
+      4251,
+      4133
+    ],
+    "mode": "RGB"
+  },
+  "docx_sha256": "631265d7562c7957092ef53865522ed0bb4a0dddbabddb80a7f780aef65a4a7a"
+}

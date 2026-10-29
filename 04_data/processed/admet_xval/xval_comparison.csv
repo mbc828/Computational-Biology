@@ -1,0 +1,177 @@
+﻿Compound,端点对(内部↔ADMETlab2),内部值,内部判定,AL2值,AL2判定,方向一致
+Baicalein,Ames ↔ AMES Toxicity,0.25 (Low),阴性,-,阴性,✓
+Baicalein,hERG ↔ hERG Blockers,0.33 (Low),阴性,---,阴性,✓
+Baicalein,DILI ↔ DILI,0.22 (Low),阴性,+++,阳性,✗
+Baicalein,Hepatotoxicity ↔ H-HT,0.19 (Low),阴性,---,阴性,✓
+Baicalein,CYP1A2 ↔ CYP1A2 inhibitor,0.30 (Low),阴性,+++,阳性,✗
+Baicalein,CYP2C9 ↔ CYP2C9 inhibitor,0.20 (Low),阴性,+,阳性,✗
+Baicalein,CYP2C19 ↔ CYP2C19 inhibitor,0.20 (Low),阴性,--,阴性,✓
+Baicalein,CYP2D6 ↔ CYP2D6 inhibitor,0.09 (Low),阴性,+,阳性,✗
+Baicalein,CYP3A4 ↔ CYP3A4 inhibitor,0.33 (Low),阴性,--,阴性,✓
+Baicalein,P-gp ↔ Pgp-inhibitor,0.82 (High),阳性,---,阴性,✗
+Baicalein,GI absorption ↔ HIA,49% (Low),阴性,---,阴性,✓
+Berberine,Ames ↔ AMES Toxicity,0.30 (Low),阴性,-,阴性,✓
+Berberine,hERG ↔ hERG Blockers,0.73 (High),阳性,--,阴性,✗
+Berberine,DILI ↔ DILI,0.29 (Low),阴性,+,阳性,✗
+Berberine,Hepatotoxicity ↔ H-HT,0.22 (Low),阴性,---,阴性,✓
+Berberine,CYP1A2 ↔ CYP1A2 inhibitor,0.33 (Low),阴性,++,阳性,✗
+Berberine,CYP2C9 ↔ CYP2C9 inhibitor,0.23 (Low),阴性,---,阴性,✓
+Berberine,CYP2C19 ↔ CYP2C19 inhibitor,0.26 (Low),阴性,---,阴性,✓
+Berberine,CYP2D6 ↔ CYP2D6 inhibitor,0.32 (Low),阴性,+++,阳性,✗
+Berberine,CYP3A4 ↔ CYP3A4 inhibitor,0.47 (Moderate),阴性,-,阴性,✓
+Berberine,P-gp ↔ Pgp-inhibitor,0.66 (Moderate),阳性,---,阴性,✗
+Berberine,GI absorption ↔ HIA,55% (Low),阴性,---,阴性,✓
+Wogonoside,Ames ↔ AMES Toxicity,0.19 (Low),阴性,-,阴性,✓
+Wogonoside,hERG ↔ hERG Blockers,0.24 (Low),阴性,--,阴性,✓
+Wogonoside,DILI ↔ DILI,0.09 (Low),阴性,+++,阳性,✗
+Wogonoside,Hepatotoxicity ↔ H-HT,0.09 (Low),阴性,--,阴性,✓
+Wogonoside,CYP1A2 ↔ CYP1A2 inhibitor,0.20 (Low),阴性,---,阴性,✓
+Wogonoside,CYP2C9 ↔ CYP2C9 inhibitor,0.12 (Low),阴性,---,阴性,✓
+Wogonoside,CYP2C19 ↔ CYP2C19 inhibitor,0.12 (Low),阴性,---,阴性,✓
+Wogonoside,CYP2D6 ↔ CYP2D6 inhibitor,0.06 (Low),阴性,---,阴性,✓
+Wogonoside,CYP3A4 ↔ CYP3A4 inhibitor,0.58 (Moderate),阳性,---,阴性,✗
+Wogonoside,P-gp ↔ Pgp-inhibitor,1.00 (High),阳性,---,阴性,✗
+Wogonoside,GI absorption ↔ HIA,1% (Low),阳性,--,阴性,✗
+Wogonin,Ames ↔ AMES Toxicity,0.19 (Low),阴性,+,阳性,✗
+Wogonin,hERG ↔ hERG Blockers,0.36 (Low),阴性,---,阴性,✓
+Wogonin,DILI ↔ DILI,0.19 (Low),阴性,+++,阳性,✗
+Wogonin,Hepatotoxicity ↔ H-HT,0.17 (Low),阴性,---,阴性,✓
+Wogonin,CYP1A2 ↔ CYP1A2 inhibitor,0.31 (Low),阴性,+++,阳性,✗
+Wogonin,CYP2C9 ↔ CYP2C9 inhibitor,0.22 (Low),阴性,++,阳性,✗
+Wogonin,CYP2C19 ↔ CYP2C19 inhibitor,0.21 (Low),阴性,+,阳性,✗
+Wogonin,CYP2D6 ↔ CYP2D6 inhibitor,0.09 (Low),阴性,+,阳性,✗
+Wogonin,CYP3A4 ↔ CYP3A4 inhibitor,0.40 (Moderate),阴性,-,阴性,✓
+Wogonin,P-gp ↔ Pgp-inhibitor,0.75 (High),阳性,-,阴性,✗
+Wogonin,GI absorption ↔ HIA,52% (Low),阴性,---,阴性,✓
+Baicalin,Ames ↔ AMES Toxicity,0.25 (Low),阴性,---,阴性,✓
+Baicalin,hERG ↔ hERG Blockers,0.21 (Low),阴性,--,阴性,✓
+Baicalin,DILI ↔ DILI,0.12 (Low),阴性,+++,阳性,✗
+Baicalin,Hepatotoxicity ↔ H-HT,0.11 (Low),阴性,---,阴性,✓
+Baicalin,CYP1A2 ↔ CYP1A2 inhibitor,0.19 (Low),阴性,---,阴性,✓
+Baicalin,CYP2C9 ↔ CYP2C9 inhibitor,0.11 (Low),阴性,---,阴性,✓
+Baicalin,CYP2C19 ↔ CYP2C19 inhibitor,0.12 (Low),阴性,---,阴性,✓
+Baicalin,CYP2D6 ↔ CYP2D6 inhibitor,0.06 (Low),阴性,---,阴性,✓
+Baicalin,CYP3A4 ↔ CYP3A4 inhibitor,0.49 (Moderate),阴性,---,阴性,✓
+Baicalin,P-gp ↔ Pgp-inhibitor,1.00 (High),阳性,---,阴性,✗
+Baicalin,GI absorption ↔ HIA,1% (Low),阳性,-,阴性,✗
+Oroxylin A,Ames ↔ AMES Toxicity,0.19 (Low),阴性,+,阳性,✗
+Oroxylin A,hERG ↔ hERG Blockers,0.36 (Low),阴性,---,阴性,✓
+Oroxylin A,DILI ↔ DILI,0.19 (Low),阴性,+++,阳性,✗
+Oroxylin A,Hepatotoxicity ↔ H-HT,0.17 (Low),阴性,---,阴性,✓
+Oroxylin A,CYP1A2 ↔ CYP1A2 inhibitor,0.31 (Low),阴性,+++,阳性,✗
+Oroxylin A,CYP2C9 ↔ CYP2C9 inhibitor,0.22 (Low),阴性,++,阳性,✗
+Oroxylin A,CYP2C19 ↔ CYP2C19 inhibitor,0.21 (Low),阴性,+,阳性,✗
+Oroxylin A,CYP2D6 ↔ CYP2D6 inhibitor,0.09 (Low),阴性,+,阳性,✗
+Oroxylin A,CYP3A4 ↔ CYP3A4 inhibitor,0.40 (Moderate),阴性,-,阴性,✓
+Oroxylin A,P-gp ↔ Pgp-inhibitor,0.75 (High),阳性,+++,阳性,✓
+Oroxylin A,GI absorption ↔ HIA,52% (Low),阴性,---,阴性,✓
+Apigenin,Ames ↔ AMES Toxicity,0.19 (Low),阴性,-,阴性,✓
+Apigenin,hERG ↔ hERG Blockers,0.33 (Low),阴性,---,阴性,✓
+Apigenin,DILI ↔ DILI,0.17 (Low),阴性,++,阳性,✗
+Apigenin,Hepatotoxicity ↔ H-HT,0.16 (Low),阴性,---,阴性,✓
+Apigenin,CYP1A2 ↔ CYP1A2 inhibitor,0.30 (Low),阴性,+++,阳性,✗
+Apigenin,CYP2C9 ↔ CYP2C9 inhibitor,0.20 (Low),阴性,+,阳性,✗
+Apigenin,CYP2C19 ↔ CYP2C19 inhibitor,0.20 (Low),阴性,+,阳性,✗
+Apigenin,CYP2D6 ↔ CYP2D6 inhibitor,0.09 (Low),阴性,++,阳性,✗
+Apigenin,CYP3A4 ↔ CYP3A4 inhibitor,0.33 (Low),阴性,++,阳性,✗
+Apigenin,P-gp ↔ Pgp-inhibitor,0.82 (High),阳性,---,阴性,✗
+Apigenin,GI absorption ↔ HIA,49% (Low),阴性,---,阴性,✓
+Chrysin,Ames ↔ AMES Toxicity,0.19 (Low),阴性,+,阳性,✗
+Chrysin,hERG ↔ hERG Blockers,0.35 (Low),阴性,---,阴性,✓
+Chrysin,DILI ↔ DILI,0.19 (Low),阴性,++,阳性,✗
+Chrysin,Hepatotoxicity ↔ H-HT,0.17 (Low),阴性,---,阴性,✓
+Chrysin,CYP1A2 ↔ CYP1A2 inhibitor,0.31 (Low),阴性,+++,阳性,✗
+Chrysin,CYP2C9 ↔ CYP2C9 inhibitor,0.22 (Low),阴性,++,阳性,✗
+Chrysin,CYP2C19 ↔ CYP2C19 inhibitor,0.21 (Low),阴性,++,阳性,✗
+Chrysin,CYP2D6 ↔ CYP2D6 inhibitor,0.09 (Low),阴性,++,阳性,✗
+Chrysin,CYP3A4 ↔ CYP3A4 inhibitor,0.33 (Low),阴性,+,阳性,✗
+Chrysin,P-gp ↔ Pgp-inhibitor,0.65 (Moderate),阳性,---,阴性,✗
+Chrysin,GI absorption ↔ HIA,64% (Low),阴性,---,阴性,✓
+Coptisine,Ames ↔ AMES Toxicity,0.25 (Low),阴性,+,阳性,✗
+Coptisine,hERG ↔ hERG Blockers,0.70 (Moderate),阳性,--,阴性,✗
+Coptisine,DILI ↔ DILI,0.27 (Low),阴性,+,阳性,✗
+Coptisine,Hepatotoxicity ↔ H-HT,0.20 (Low),阴性,---,阴性,✓
+Coptisine,CYP1A2 ↔ CYP1A2 inhibitor,0.31 (Low),阴性,+++,阳性,✗
+Coptisine,CYP2C9 ↔ CYP2C9 inhibitor,0.21 (Low),阴性,---,阴性,✓
+Coptisine,CYP2C19 ↔ CYP2C19 inhibitor,0.25 (Low),阴性,--,阴性,✓
+Coptisine,CYP2D6 ↔ CYP2D6 inhibitor,0.31 (Low),阴性,+++,阳性,✗
+Coptisine,CYP3A4 ↔ CYP3A4 inhibitor,0.34 (Low),阴性,++,阳性,✗
+Coptisine,P-gp ↔ Pgp-inhibitor,0.66 (Moderate),阳性,---,阴性,✗
+Coptisine,GI absorption ↔ HIA,58% (Low),阴性,---,阴性,✓
+Palmatine,Ames ↔ AMES Toxicity,0.30 (Low),阴性,--,阴性,✓
+Palmatine,hERG ↔ hERG Blockers,0.75 (High),阳性,-,阴性,✗
+Palmatine,DILI ↔ DILI,0.31 (Low),阴性,++,阳性,✗
+Palmatine,Hepatotoxicity ↔ H-HT,0.23 (Low),阴性,---,阴性,✓
+Palmatine,CYP1A2 ↔ CYP1A2 inhibitor,0.34 (Low),阴性,--,阴性,✓
+Palmatine,CYP2C9 ↔ CYP2C9 inhibitor,0.24 (Low),阴性,---,阴性,✓
+Palmatine,CYP2C19 ↔ CYP2C19 inhibitor,0.28 (Low),阴性,---,阴性,✓
+Palmatine,CYP2D6 ↔ CYP2D6 inhibitor,0.33 (Low),阴性,--,阴性,✓
+Palmatine,CYP3A4 ↔ CYP3A4 inhibitor,0.60 (Moderate),阳性,---,阴性,✗
+Palmatine,P-gp ↔ Pgp-inhibitor,0.66 (Moderate),阳性,---,阴性,✗
+Palmatine,GI absorption ↔ HIA,52% (Low),阴性,---,阴性,✓
+Jatrorrhizine,Ames ↔ AMES Toxicity,0.30 (Low),阴性,-,阴性,✓
+Jatrorrhizine,hERG ↔ hERG Blockers,0.73 (High),阳性,--,阴性,✗
+Jatrorrhizine,DILI ↔ DILI,0.29 (Low),阴性,+,阳性,✗
+Jatrorrhizine,Hepatotoxicity ↔ H-HT,0.22 (Low),阴性,---,阴性,✓
+Jatrorrhizine,CYP1A2 ↔ CYP1A2 inhibitor,0.33 (Low),阴性,-,阴性,✓
+Jatrorrhizine,CYP2C9 ↔ CYP2C9 inhibitor,0.23 (Low),阴性,---,阴性,✓
+Jatrorrhizine,CYP2C19 ↔ CYP2C19 inhibitor,0.26 (Low),阴性,---,阴性,✓
+Jatrorrhizine,CYP2D6 ↔ CYP2D6 inhibitor,0.32 (Low),阴性,-,阴性,✓
+Jatrorrhizine,CYP3A4 ↔ CYP3A4 inhibitor,0.52 (Moderate),阳性,---,阴性,✗
+Jatrorrhizine,P-gp ↔ Pgp-inhibitor,0.75 (High),阳性,---,阴性,✗
+Jatrorrhizine,GI absorption ↔ HIA,49% (Low),阴性,---,阴性,✓
+Magnoflorine,Ames ↔ AMES Toxicity,0.23 (Low),阴性,--,阴性,✓
+Magnoflorine,hERG ↔ hERG Blockers,0.64 (Moderate),阳性,---,阴性,✗
+Magnoflorine,DILI ↔ DILI,0.25 (Low),阴性,---,阴性,✓
+Magnoflorine,Hepatotoxicity ↔ H-HT,0.18 (Low),阴性,---,阴性,✓
+Magnoflorine,CYP1A2 ↔ CYP1A2 inhibitor,0.22 (Low),阴性,---,阴性,✓
+Magnoflorine,CYP2C9 ↔ CYP2C9 inhibitor,0.17 (Low),阴性,---,阴性,✓
+Magnoflorine,CYP2C19 ↔ CYP2C19 inhibitor,0.19 (Low),阴性,---,阴性,✓
+Magnoflorine,CYP2D6 ↔ CYP2D6 inhibitor,0.27 (Low),阴性,---,阴性,✓
+Magnoflorine,CYP3A4 ↔ CYP3A4 inhibitor,0.43 (Moderate),阴性,---,阴性,✓
+Magnoflorine,P-gp ↔ Pgp-inhibitor,0.80 (High),阳性,---,阴性,✗
+Magnoflorine,GI absorption ↔ HIA,45% (Low),阴性,+++,阳性,✗
+Emodin,Ames ↔ AMES Toxicity,0.29 (Low),阴性,++,阳性,✗
+Emodin,hERG ↔ hERG Blockers,0.21 (Low),阴性,---,阴性,✓
+Emodin,DILI ↔ DILI,0.24 (Low),阴性,+++,阳性,✗
+Emodin,Hepatotoxicity ↔ H-HT,0.21 (Low),阴性,---,阴性,✓
+Emodin,CYP1A2 ↔ CYP1A2 inhibitor,0.22 (Low),阴性,+++,阳性,✗
+Emodin,CYP2C9 ↔ CYP2C9 inhibitor,0.13 (Low),阴性,+,阳性,✗
+Emodin,CYP2C19 ↔ CYP2C19 inhibitor,0.12 (Low),阴性,--,阴性,✓
+Emodin,CYP2D6 ↔ CYP2D6 inhibitor,0.06 (Low),阴性,-,阴性,✓
+Emodin,CYP3A4 ↔ CYP3A4 inhibitor,0.22 (Low),阴性,+,阳性,✗
+Emodin,P-gp ↔ Pgp-inhibitor,0.86 (High),阳性,---,阴性,✗
+Emodin,GI absorption ↔ HIA,43% (Low),阴性,---,阴性,✓
+Rhein,Ames ↔ AMES Toxicity,0.29 (Low),阴性,+++,阳性,✗
+Rhein,hERG ↔ hERG Blockers,0.19 (Low),阴性,---,阴性,✓
+Rhein,DILI ↔ DILI,0.22 (Low),阴性,+++,阳性,✗
+Rhein,Hepatotoxicity ↔ H-HT,0.20 (Low),阴性,--,阴性,✓
+Rhein,CYP1A2 ↔ CYP1A2 inhibitor,0.20 (Low),阴性,-,阴性,✓
+Rhein,CYP2C9 ↔ CYP2C9 inhibitor,0.20 (Low),阴性,-,阴性,✓
+Rhein,CYP2C19 ↔ CYP2C19 inhibitor,0.11 (Low),阴性,---,阴性,✓
+Rhein,CYP2D6 ↔ CYP2D6 inhibitor,0.06 (Low),阴性,--,阴性,✓
+Rhein,CYP3A4 ↔ CYP3A4 inhibitor,0.26 (Low),阴性,--,阴性,✓
+Rhein,P-gp ↔ Pgp-inhibitor,0.93 (High),阳性,---,阴性,✗
+Rhein,GI absorption ↔ HIA,30% (Low),阴性,---,阴性,✓
+Aloe-emodin,Ames ↔ AMES Toxicity,0.29 (Low),阴性,++,阳性,✗
+Aloe-emodin,hERG ↔ hERG Blockers,0.18 (Low),阴性,---,阴性,✓
+Aloe-emodin,DILI ↔ DILI,0.21 (Low),阴性,+++,阳性,✗
+Aloe-emodin,Hepatotoxicity ↔ H-HT,0.19 (Low),阴性,---,阴性,✓
+Aloe-emodin,CYP1A2 ↔ CYP1A2 inhibitor,0.20 (Low),阴性,+++,阳性,✗
+Aloe-emodin,CYP2C9 ↔ CYP2C9 inhibitor,0.11 (Low),阴性,+,阳性,✗
+Aloe-emodin,CYP2C19 ↔ CYP2C19 inhibitor,0.11 (Low),阴性,---,阴性,✓
+Aloe-emodin,CYP2D6 ↔ CYP2D6 inhibitor,0.06 (Low),阴性,-,阴性,✓
+Aloe-emodin,CYP3A4 ↔ CYP3A4 inhibitor,0.24 (Low),阴性,+,阳性,✗
+Aloe-emodin,P-gp ↔ Pgp-inhibitor,0.87 (High),阳性,---,阴性,✗
+Aloe-emodin,GI absorption ↔ HIA,40% (Low),阴性,---,阴性,✓
+Chrysophanol,Ames ↔ AMES Toxicity,0.29 (Low),阴性,++,阳性,✗
+Chrysophanol,hERG ↔ hERG Blockers,0.22 (Low),阴性,---,阴性,✓
+Chrysophanol,DILI ↔ DILI,0.26 (Low),阴性,+++,阳性,✗
+Chrysophanol,Hepatotoxicity ↔ H-HT,0.22 (Low),阴性,---,阴性,✓
+Chrysophanol,CYP1A2 ↔ CYP1A2 inhibitor,0.23 (Low),阴性,+++,阳性,✗
+Chrysophanol,CYP2C9 ↔ CYP2C9 inhibitor,0.14 (Low),阴性,+,阳性,✗
+Chrysophanol,CYP2C19 ↔ CYP2C19 inhibitor,0.13 (Low),阴性,--,阴性,✓
+Chrysophanol,CYP2D6 ↔ CYP2D6 inhibitor,0.06 (Low),阴性,+,阳性,✗
+Chrysophanol,CYP3A4 ↔ CYP3A4 inhibitor,0.22 (Low),阴性,+,阳性,✗
+Chrysophanol,P-gp ↔ Pgp-inhibitor,0.71 (High),阳性,---,阴性,✗
+Chrysophanol,GI absorption ↔ HIA,59% (Low),阴性,---,阴性,✓

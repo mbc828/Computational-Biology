@@ -1,0 +1,4 @@
+paragraphs=250
+tables=8
+embedded_media=8
+internal_token_hits=0

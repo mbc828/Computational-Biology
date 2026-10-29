@@ -1,0 +1,13 @@
+{
+  "backup_dir": "<LOCAL_DRIVE>/\kimi\\kimi\\workspace\\SHXD-PJI项目\\outputs\\manuscript_v21_github_release\\tables_data\\archive_pre_ikkb_fill_20261003",
+  "before": {
+    "fig8_trajectory_list.tsv": "bc3de0d841242ad849c1e2406cf44f0ace5f3a3a042938a512e1e1ac032adecb",
+    "fig8_structural_long.tsv": "aec39e545a90b21335a2cc56ae319aa54f5ceb8d3a03df26fabfb7cc3cef39be",
+    "fig8_system_summary.tsv": "914e7f12921a80b7767ce9aaa837cc5f4d6c674a5464ecf410466b903fa93e98"
+  },
+  "after": {
+    "fig8_trajectory_list.tsv": "310545acacde810c4fb528498adf078cb77cfcf05a52f9a7a5fc861aeaf6c17f",
+    "fig8_structural_long.tsv": "266b95cce4ea975192993e0f46262ccd90873cba90b11db259928875b5d4224c",
+    "fig8_system_summary.tsv": "aec18e989cbfd85cfbb21f2db59265a53f31ba1311aa3b582a82c49afe430518"
+  }
+}
