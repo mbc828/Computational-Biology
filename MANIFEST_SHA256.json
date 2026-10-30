@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-10-30T02:42:55.615434+00:00",
+  "generated_utc": "2026-10-30T12:40:33.531009+00:00",
   "baseline": "SHXD-PJI v92",
   "algorithm": "SHA-256",
-  "file_count": 195,
+  "file_count": 196,
   "files": [
     {
       "path": ".gitignore",
@@ -21,13 +21,13 @@
     },
     {
       "path": "02_figures/figure_manifest.csv",
-      "bytes": 15999,
-      "sha256": "e0b248494b7e491474cf1dea91a92e9bdd36db138c9ec6898b9eaa6e02fd056a"
+      "bytes": 16031,
+      "sha256": "aca0e2ac520e5fb75e5aac61a70c3ac119638952b6837240672692dc884b8c7b"
     },
     {
       "path": "02_figures/main/Figure_01.png",
-      "bytes": 594870,
-      "sha256": "af80cc6dc751bc5e283fa9326461c844ba8b55a8688a65988e236287ab5f3846"
+      "bytes": 596060,
+      "sha256": "497f0037d308d1412a5cdbd2772df8f20bc0ff913a4b5ccef4da91095c3514a5"
     },
     {
       "path": "02_figures/main/Figure_02.png",
@@ -311,8 +311,8 @@
     },
     {
       "path": "03_code/public/outputs/manuscript_v21_github_release/review_v89/design/build_figure1.py",
-      "bytes": 10009,
-      "sha256": "b54ab4b412feea587336b39e08e095ea554fa7ee26ca0f73667748a50879df7c"
+      "bytes": 10017,
+      "sha256": "6eb5a1743763340273ad03590d53f143dab7b9e41d9210f10a78dce6cac1609c"
     },
     {
       "path": "03_code/public/outputs/manuscript_v21_github_release/review_v89/unify_figure5_font.py",
@@ -956,13 +956,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 2436,
-      "sha256": "d83fd5749eab32bb6285a303a7ade0ff11ea496eff160a0bed131220579fb713"
+      "bytes": 2513,
+      "sha256": "f6275678d2cc0cec3fb91cd6d4a50229243ced4f638fe7d715d47c93ba60cd14"
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "bytes": 1624,
-      "sha256": "4e921ab2acf0005795040531be7808f6cd59bb09e08f811d537edff2497cefe2"
+      "bytes": 1735,
+      "sha256": "3046923c5596e249ce8c8c3708a3a3324f4fd50f98849040061be86c71d9ba07"
     },
     {
       "path": "manuscript/SHXD_PJI_v90_text.md",
@@ -978,6 +978,11 @@
       "path": "manuscript/SHXD_PJI_v92_text.md",
       "bytes": 129010,
       "sha256": "1368ddbc76c84708cd5e82937120bc5b82575dbb66f5d2628e99892a06ef9c7f"
+    },
+    {
+      "path": "manuscript/SHXD_PJI_v93_text.md",
+      "bytes": 129366,
+      "sha256": "80fa444a7004eb4aa8d4564fd74e5f3a0220728cdde3748c81ed0301df21b510"
     }
   ]
 }

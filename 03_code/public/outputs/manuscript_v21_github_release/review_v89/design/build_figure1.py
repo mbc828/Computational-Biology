@@ -144,7 +144,7 @@ text("host_body", [140, 1596, 760, 128], "PMA-differentiated THP-1 + HKSA\nBaica
 
 shape("pathogen_arm", [1040, 1512, 840, 252], C["teal_light"], C["teal"])
 text("pathogen_title", [1080, 1532, 760, 52], "Pathogen-side readouts", 38, C["teal"], True)
-text("pathogen_body", [1080, 1596, 760, 128], "Clinical MRSA isolate from PJI\nBaicalein + SHXD formula\nCFU counting + live/dead staining\nAntibacterial activity in vitro", 32, C["ink"])
+text("pathogen_body", [1080, 1596, 760, 128], "Commercial MRSA reference strain\nBNCC330041 · BeNa Culture Collection\nBaicalein + SHXD formula\nCFU counting + live/dead staining", 32, C["ink"])
 
 text("integrated_readout", [170, 1780, 1710, 58], "Integrated model: SHXD-derived baicalein and IKK/NF-κB-related inflammatory regulation", 30, C["navy"], True)
 line("panel_separator", [1954, 35, 2, 1800], [(1, 0), (1, 1800)], (2, 1800), "#D7DEE3", 2, False)
