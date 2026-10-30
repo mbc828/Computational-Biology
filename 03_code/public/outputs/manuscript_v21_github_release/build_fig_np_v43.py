@@ -38,7 +38,7 @@ for r in rows:
 
 # audited rank-1 redock RMSD (v42 canonical text + redock logs)
 redock = [("IKK\u03b2 (4KIK)", 4.46), ("NLRP3 (7PZC)", 5.78), ("CASP1 (6PZP)", 6.40),
-          ("TLR4\u2013MD2 (3FXI)", 8.47), ("IL-17A (5H4I)", 8.56)]
+          ("TLR4\u2013MD2 (3FXI)", 8.47), ("IL-17A (5HI4)", 8.56)]
 
 fig = plt.figure(figsize=(8.6, 3.6), dpi=300)
 gs = fig.add_gridspec(1, 2, width_ratios=[1.5, 1.0], wspace=0.52, left=0.125, right=0.99, top=0.85, bottom=0.16)

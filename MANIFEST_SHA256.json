@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-10-30T13:01:06.416063+00:00",
+  "generated_utc": "2026-10-30T13:32:16.832439+00:00",
   "baseline": "SHXD-PJI v92",
   "algorithm": "SHA-256",
-  "file_count": 199,
+  "file_count": 202,
   "files": [
     {
       "path": ".gitignore",
@@ -21,8 +21,8 @@
     },
     {
       "path": "02_figures/figure_manifest.csv",
-      "bytes": 16172,
-      "sha256": "b0521786f4de33c2f2539bb4b08d1de74dad866cb700984dba55b8c43afdaab0"
+      "bytes": 16239,
+      "sha256": "1d49266dc44075b085fc89aa857233d8cc3626bc9f8906841d359e472337d53d"
     },
     {
       "path": "02_figures/main/Figure_01.png",
@@ -141,8 +141,8 @@
     },
     {
       "path": "02_figures/supplementary/Figure_S13.png",
-      "bytes": 421765,
-      "sha256": "4e908b56817649a08429fbc5a1da137e8ed527d5190c132041a7a5585d41c13e"
+      "bytes": 132104,
+      "sha256": "00f4fd76450744749c40183d38e4b76f5fa37ef37687c28033550bd729b2e177"
     },
     {
       "path": "03_code/public/README.md",
@@ -272,7 +272,12 @@
     {
       "path": "03_code/public/outputs/manuscript_v21_github_release/build_fig_np_v43.py",
       "bytes": 4309,
-      "sha256": "e2694ecdbae07a9e621c1e9f41bcfbd1d4a3bd90351ff2229b3c4da0753e12e4"
+      "sha256": "25845342dd24ada64c3f25e15645f5dd7f0acca874552dedcf8c0a22ccaa760d"
+    },
+    {
+      "path": "03_code/public/outputs/manuscript_v21_github_release/build_figure_s13_v95.py",
+      "bytes": 1892,
+      "sha256": "71436c152e5bf63a64c25f8d52fbb80249e92d48eca3cf3eb6041239d0bc1763"
     },
     {
       "path": "03_code/public/outputs/manuscript_v21_github_release/figure_consolidation_v82/build_composites.py",
@@ -625,6 +630,11 @@
       "sha256": "b754df52dccdbd5b3f70a998afc367d24733a4502b4a1aa3d477ffe14443bbe9"
     },
     {
+      "path": "04_data/processed/docking/extended_docking_parameters_v95.csv",
+      "bytes": 681,
+      "sha256": "e623290ff35b5911a477679bb5b643f4bdafb93acce0fced58cc0d7c34dd630d"
+    },
+    {
       "path": "04_data/processed/ml_core_gene_screen_20261002/README_结果摘要.md",
       "bytes": 3486,
       "sha256": "d7effe54d51539e2281a6f834096f7c27ed6398d78679ad73a30623bcebe0fcd"
@@ -966,13 +976,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 2608,
-      "sha256": "86285771fffe8402baf8999f88d720616dea9c929758f4839d40ef35cc301c2d"
+      "bytes": 2793,
+      "sha256": "d0a285242047d65ec97bbff22fdf46387c44dc671db76f1996310f4a293b76dd"
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "bytes": 1896,
-      "sha256": "02be19952a7590b76f59a8bf30edaf786c7cb53332fc5b4b0d839aff6aa6e450"
+      "bytes": 2459,
+      "sha256": "a38cbaf7648f9a75adc5dba34838d6dd5fae17b87182293db2669a8be0aee436"
     },
     {
       "path": "manuscript/SHXD_PJI_v90_text.md",
@@ -998,6 +1008,11 @@
       "path": "manuscript/SHXD_PJI_v94_text.md",
       "bytes": 130157,
       "sha256": "08d8c1057b751d49968c248c0d3014dee84a1ef797f6a799d41630a04244f664"
+    },
+    {
+      "path": "manuscript/SHXD_PJI_v95_text.md",
+      "bytes": 130937,
+      "sha256": "335e7fe51d6011f619327ee12a722970e7912166753e1a92395d0507d41d0b01"
     }
   ]
 }
