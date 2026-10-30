@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-29T17:23:36.379795+00:00",
+  "generated_utc": "2026-10-30T02:42:55.615434+00:00",
   "baseline": "SHXD-PJI v92",
   "algorithm": "SHA-256",
   "file_count": 195,
@@ -956,13 +956,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 2334,
-      "sha256": "6879140c82f1d2e9b641df5ce173f3319ac8f540c898baeae0e4cb1f457fe5fc"
+      "bytes": 2436,
+      "sha256": "d83fd5749eab32bb6285a303a7ade0ff11ea496eff160a0bed131220579fb713"
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "bytes": 1264,
-      "sha256": "99fa52bdba50091025f746ad50556768f3cad00b4e4956e0c53be80a28b813ae"
+      "bytes": 1624,
+      "sha256": "4e921ab2acf0005795040531be7808f6cd59bb09e08f811d537edff2497cefe2"
     },
     {
       "path": "manuscript/SHXD_PJI_v90_text.md",
