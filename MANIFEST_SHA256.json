@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-10-30T12:40:33.531009+00:00",
+  "generated_utc": "2026-10-30T13:01:06.416063+00:00",
   "baseline": "SHXD-PJI v92",
   "algorithm": "SHA-256",
-  "file_count": 196,
+  "file_count": 199,
   "files": [
     {
       "path": ".gitignore",
@@ -21,8 +21,8 @@
     },
     {
       "path": "02_figures/figure_manifest.csv",
-      "bytes": 16031,
-      "sha256": "aca0e2ac520e5fb75e5aac61a70c3ac119638952b6837240672692dc884b8c7b"
+      "bytes": 16172,
+      "sha256": "b0521786f4de33c2f2539bb4b08d1de74dad866cb700984dba55b8c43afdaab0"
     },
     {
       "path": "02_figures/main/Figure_01.png",
@@ -51,8 +51,8 @@
     },
     {
       "path": "02_figures/main/Figure_06.png",
-      "bytes": 2123066,
-      "sha256": "9722947a7e3b4b76297ab8fb871715d22ca01934896c539f4c6816f0ee89262b"
+      "bytes": 2153879,
+      "sha256": "a73c289ebf17e98a558b65a772311ff50c29f8e2a99a1f88e85f236846cf7f50"
     },
     {
       "path": "02_figures/main/Figure_07.png",
@@ -318,6 +318,11 @@
       "path": "03_code/public/outputs/manuscript_v21_github_release/review_v89/unify_figure5_font.py",
       "bytes": 3123,
       "sha256": "8bf7be942498aeb5576be3c0dca92e8d04d90eaf23e9008313c611913e6f0280"
+    },
+    {
+      "path": "03_code/public/outputs/manuscript_v21_github_release/review_v94/draw_fig6_v94.py",
+      "bytes": 4150,
+      "sha256": "d5690c3aa382da1e491593fc3f09e4071c3612e94b7106f71525b06b03e8f4b3"
     },
     {
       "path": "03_code/public/outputs/wave3_i165a_coptisine_analysis_20261025/analyze_full_wave3.py",
@@ -870,6 +875,11 @@
       "sha256": "12725ff8ce8f1cf56b79caa0fad6f070a6732e01a15e3af47526023b4033e561"
     },
     {
+      "path": "04_data/processed/wetlab/antibacterial_gradient_reporting_v94.csv",
+      "bytes": 332,
+      "sha256": "f917b37733ed41a89e16e72dfbd2c830ee2d79757f869118dc117d0a9f1ef403"
+    },
+    {
       "path": "04_data/processed/wetlab/baicalein_thp1_cck8_literature.csv",
       "bytes": 6033,
       "sha256": "7a85626860857005cd3db7dd2003933e30763f17d8ff27146e36da36cb0e914d"
@@ -956,13 +966,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 2513,
-      "sha256": "f6275678d2cc0cec3fb91cd6d4a50229243ced4f638fe7d715d47c93ba60cd14"
+      "bytes": 2608,
+      "sha256": "86285771fffe8402baf8999f88d720616dea9c929758f4839d40ef35cc301c2d"
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "bytes": 1735,
-      "sha256": "3046923c5596e249ce8c8c3708a3a3324f4fd50f98849040061be86c71d9ba07"
+      "bytes": 1896,
+      "sha256": "02be19952a7590b76f59a8bf30edaf786c7cb53332fc5b4b0d839aff6aa6e450"
     },
     {
       "path": "manuscript/SHXD_PJI_v90_text.md",
@@ -983,6 +993,11 @@
       "path": "manuscript/SHXD_PJI_v93_text.md",
       "bytes": 129366,
       "sha256": "80fa444a7004eb4aa8d4564fd74e5f3a0220728cdde3748c81ed0301df21b510"
+    },
+    {
+      "path": "manuscript/SHXD_PJI_v94_text.md",
+      "bytes": 130157,
+      "sha256": "08d8c1057b751d49968c248c0d3014dee84a1ef797f6a799d41630a04244f664"
     }
   ]
 }

@@ -1,0 +1,5 @@
+group,concentration_ug_ml,plate_1_colonies,plate_2_colonies,plate_3_colonies,cfu_ml_report,relative_survival_report,interpretation
+Control (new),,726,711,672,7.03e8,100%,quantified
+Baicalein,16,668,654,641,6.543333333e8,93.08%,quantified
+Baicalein,32,476,481,597,5.18e8,73.68%,quantified
+Baicalein,64,0,0,0,<1e6,<0.15%,not_detected
